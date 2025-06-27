@@ -1,0 +1,205 @@
+sequenceDiagram
+    %% User Registration and Onboarding
+    actor User
+    participant AuthUI as Authentication UI
+    participant AuthSvc as Auth Service
+    participant UserSvc as User Service
+    participant EmailSvc as Email Service
+    participant DB as Database
+
+    User->>AuthUI: Fill registration form
+    AuthUI->>AuthSvc: register(email, password, firstName, lastName)
+    AuthSvc->>AuthSvc: validateInput()
+    AuthSvc->>DB: checkEmailExists(email)
+    DB-->>AuthSvc: emailExists (true/false)
+    alt email exists
+        AuthSvc-->>AuthUI: Return error: Email already exists
+        AuthUI-->>User: Display error message
+    else email doesn't exist
+        AuthSvc->>AuthSvc: hashPassword(password)
+        AuthSvc->>DB: createUser(userData)
+        DB-->>AuthSvc: userId
+        AuthSvc->>UserSvc: createProfile(userId, userData)
+        UserSvc->>DB: storeProfileData(userId, profileData)
+        DB-->>UserSvc: success
+        AuthSvc->>EmailSvc: sendVerificationEmail(email, token)
+        EmailSvc-->>User: Email: Verify your account
+        AuthSvc-->>AuthUI: Return success with userId
+        AuthUI-->>User: Display success message & login prompt
+    end
+    
+    %% Value Chain Exploration
+    actor User2 as User
+    participant UI as Value Chain UI
+    participant API as Value Chain API
+    participant DB2 as Database
+    participant SearchSvc as Search Service
+    
+    User2->>UI: Visit landing page
+    UI->>API: fetchFeaturedValueChains()
+    API->>DB2: getFeaturedValueChains(limit: 10)
+    DB2-->>API: featuredValueChains
+    API-->>UI: Return featuredValueChains
+    UI-->>User2: Display featured value chain cards
+    
+    User2->>UI: Click on value chain card
+    UI->>API: getValueChainDetails(valueChainId)
+    API->>DB2: getValueChain(valueChainId)
+    DB2-->>API: valueChainData
+    API->>DB2: getFeedstockPage(valueChainId)
+    DB2-->>API: feedstockPageData
+    API->>DB2: getChemHubPage(valueChainId)
+    DB2-->>API: chemHubPageData
+    API->>DB2: getLoopCraftedPage(valueChainId)
+    DB2-->>API: loopCraftedPageData
+    API-->>UI: Return complete value chain data
+    UI-->>User2: Display value chain details page
+    
+    %% Marketplace Listing and Transaction
+    actor Seller
+    actor Buyer
+    participant SellerUI as Seller UI
+    participant BuyerUI as Buyer UI
+    participant ListingSvc as Listing Service
+    participant TransSvc as Transaction Service
+    participant NotifSvc as Notification Service
+    participant DB3 as Database
+    
+    Seller->>SellerUI: Create new listing form
+    SellerUI->>SellerUI: Validate form data
+    Seller->>SellerUI: Upload product images
+    SellerUI->>ListingSvc: uploadImages(images)
+    ListingSvc->>ListingSvc: processImages(images)
+    ListingSvc-->>SellerUI: Return image URLs
+    Seller->>SellerUI: Submit listing
+    SellerUI->>ListingSvc: createListing(listingData)
+    ListingSvc->>DB3: insertListing(listingData)
+    DB3-->>ListingSvc: listingId
+    ListingSvc->>DB3: updateListingStatus(listingId, "ACTIVE")
+    DB3-->>ListingSvc: success
+    ListingSvc-->>SellerUI: Return listing details
+    SellerUI-->>Seller: Display success message
+    
+    Buyer->>BuyerUI: Search marketplace
+    BuyerUI->>ListingSvc: searchListings(query, filters)
+    ListingSvc->>DB3: queryListings(query, filters)
+    DB3-->>ListingSvc: matchingListings
+    ListingSvc-->>BuyerUI: Return listings
+    BuyerUI-->>Buyer: Display search results
+    
+    Buyer->>BuyerUI: Purchase item
+    BuyerUI->>TransSvc: createTransaction(listingId, quantity)
+    TransSvc->>DB3: getListing(listingId)
+    DB3-->>TransSvc: listingDetails
+    TransSvc->>TransSvc: calculateTotalPrice(listingDetails, quantity)
+    TransSvc->>DB3: createTransaction(transactionData)
+    DB3-->>TransSvc: transactionId
+    TransSvc->>ListingSvc: updateListingQuantity(listingId, remainingQuantity)
+    ListingSvc->>DB3: updateListing(listingId, {quantity: remainingQuantity})
+    DB3-->>ListingSvc: success
+    TransSvc-->>BuyerUI: Return transaction details
+    BuyerUI-->>Buyer: Display purchase confirmation
+    TransSvc->>NotifSvc: notifyNewTransaction(sellerId, transactionId)
+    NotifSvc-->>SellerUI: Real-time transaction notification
+    SellerUI-->>Seller: Display new order notification
+    
+    %% Node Registration and Community Participation
+    actor User3 as User
+    participant CommunityUI as Community UI
+    participant NodeSvc as Node Service
+    participant GeoSvc as Geo Service
+    participant VisSvc as Visualization Service
+    participant DB4 as Database
+    
+    User3->>CommunityUI: Fill node registration form
+    User3->>CommunityUI: Enter location
+    CommunityUI->>GeoSvc: geocodeAddress(address)
+    GeoSvc-->>CommunityUI: Return coordinates
+    User3->>CommunityUI: Upload node images
+    CommunityUI->>NodeSvc: uploadImages(images)
+    NodeSvc-->>CommunityUI: Return image URLs
+    User3->>CommunityUI: Submit node registration
+    CommunityUI->>NodeSvc: createNode(nodeData)
+    NodeSvc->>DB4: createLocation(locationData)
+    DB4-->>NodeSvc: locationId
+    NodeSvc->>DB4: createNode(nodeData, locationId)
+    DB4-->>NodeSvc: nodeId
+    NodeSvc-->>CommunityUI: Return node details
+    CommunityUI-->>User3: Display success message
+    
+    User3->>CommunityUI: View 3D globe
+    CommunityUI->>VisSvc: getGlobeData()
+    VisSvc->>DB4: getAllVerifiedNodes()
+    DB4-->>VisSvc: nodesData
+    VisSvc->>DB4: getRecentTradeFlows()
+    DB4-->>VisSvc: tradeFlowsData
+    VisSvc-->>CommunityUI: Return formatted globe data
+    CommunityUI-->>User3: Display interactive 3D globe
+    
+    %% Governance Proposal and Voting
+    actor User4 as User
+    participant GovUI as Governance UI
+    participant GovSvc as Governance Service
+    participant TokenSvc as Token Service
+    participant DB5 as Database
+    
+    User4->>GovUI: Create new proposal form
+    GovUI->>GovSvc: getUserTokenBalance(userId)
+    GovSvc->>TokenSvc: getTokenBalance(userId)
+    TokenSvc->>DB5: queryTokenBalance(userId)
+    DB5-->>TokenSvc: tokenBalance
+    TokenSvc-->>GovSvc: Return tokenBalance
+    GovSvc-->>GovUI: Return tokenBalance
+    alt insufficient balance
+        GovUI-->>User4: Display error: Not enough tokens to create proposal
+    else sufficient balance
+        User4->>GovUI: Fill proposal details
+        User4->>GovUI: Submit proposal
+        GovUI->>GovSvc: createProposal(proposalData)
+        GovSvc->>DB5: insertProposal(proposalData)
+        DB5-->>GovSvc: proposalId
+        GovSvc-->>GovUI: Return proposal details
+        GovUI-->>User4: Display success message
+    end
+    
+    User4->>GovUI: Browse active proposals
+    GovUI->>GovSvc: getActiveProposals()
+    GovSvc->>DB5: queryActiveProposals()
+    DB5-->>GovSvc: activeProposals
+    GovSvc-->>GovUI: Return activeProposals
+    GovUI-->>User4: Display active proposals
+    
+    User4->>GovUI: Vote on proposal
+    GovUI->>GovSvc: castVote(proposalId, choice)
+    GovSvc->>TokenSvc: getTokenBalance(userId)
+    TokenSvc->>DB5: queryTokenBalance(userId)
+    DB5-->>TokenSvc: tokenBalance
+    TokenSvc-->>GovSvc: Return tokenBalance
+    GovSvc->>DB5: recordVote(proposalId, userId, choice, weight)
+    DB5-->>GovSvc: success
+    GovSvc-->>GovUI: Return updated vote count
+    GovUI-->>User4: Display vote confirmation
+    
+    %% Subscription Management
+    actor Business as Business User
+    participant SubUI as Subscription UI
+    participant SubSvc as Subscription Service
+    participant PaySvc as Payment Service
+    participant DB6 as Database
+    
+    Business->>SubUI: View subscription plans
+    SubUI->>SubSvc: getSubscriptionPlans()
+    SubSvc->>DB6: queryActiveSubscriptionPlans()
+    DB6-->>SubSvc: subscriptionPlans
+    SubSvc-->>SubUI: Return subscriptionPlans
+    SubUI-->>Business: Display available subscription tiers
+    
+    Business->>SubUI: Select subscription plan
+    Business->>SubUI: Enter payment information
+    SubUI->>PaySvc: processPayment(paymentData)
+    PaySvc-->>SubUI: Return paymentConfirmation
+    SubUI->>SubSvc: createSubscription(userId, planId, paymentData)
+    SubSvc->>DB6: insertSubscription(subscriptionData)
+    DB6-->>SubSvc: subscriptionId
+    SubSvc-->>SubUI: Return subscription details
+    SubUI-->>Business: Display subscription confirmation

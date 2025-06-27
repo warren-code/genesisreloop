@@ -1,0 +1,492 @@
+classDiagram
+    class User {
+        +uuid id
+        +string email
+        +string passwordHash
+        +string firstName
+        +string lastName
+        +UserRole role
+        +string profileImage
+        +string bio
+        +Date createdAt
+        +Date updatedAt
+        +register(email, password, firstName, lastName)
+        +login(email, password)
+        +updateProfile(profileData)
+        +changePassword(oldPassword, newPassword)
+    }
+    
+    class UserRole {
+        <<enumeration>>
+        WASTE_PROVIDER
+        NODE_OPERATOR
+        PRODUCT_BUYER
+        PROFESSIONAL
+        ADMIN
+    }
+    
+    class Organization {
+        +uuid id
+        +string name
+        +string description
+        +string logo
+        +string website
+        +boolean verified
+        +Date createdAt
+        +Date updatedAt
+        +createOrganization(organizationData)
+        +updateOrganization(organizationData)
+        +verifyOrganization()
+        +addMember(userId, role)
+        +removeMember(userId)
+    }
+    
+    class OrganizationMember {
+        +uuid organizationId
+        +uuid userId
+        +OrganizationRole role
+        +Date joinedAt
+    }
+    
+    class OrganizationRole {
+        <<enumeration>>
+        OWNER
+        ADMIN
+        MEMBER
+    }
+    
+    class ValueChain {
+        +uuid id
+        +string name
+        +string description
+        +string category
+        +number profitability
+        +number sustainability
+        +number difficulty
+        +boolean featured
+        +string previewImage
+        +Date createdAt
+        +Date updatedAt
+        +createValueChain(valueChainData)
+        +updateValueChain(valueChainData)
+        +setFeatured(featured)
+        +getRelatedChains()
+    }
+    
+    class FeedstockPage {
+        +uuid id
+        +uuid valueChainId
+        +string name
+        +string description
+        +string[] images
+        +string sourceTypes
+        +string collectionMethods
+        +string storageRequirements
+        +string availabilityInfo
+        +string seasonalVariations
+        +Date createdAt
+        +Date updatedAt
+        +createFeedstockPage(feedstockData)
+        +updateFeedstockPage(feedstockData)
+        +addImage(image)
+        +removeImage(imageId)
+        +getConnectedProcesses()
+        +getMarketListings()
+    }
+    
+    class ChemHubPage {
+        +uuid id
+        +uuid valueChainId
+        +string name
+        +string description
+        +string processFlowDiagram
+        +string scientificBasis
+        +string[] implementationSteps
+        +string safetyConsiderations
+        +Map~string, number~ startupCosts
+        +Map~string, number~ operationalCosts
+        +number estimatedROI
+        +string[] requiredSkills
+        +string[] equipment
+        +Date createdAt
+        +Date updatedAt
+        +createChemHubPage(chemHubData)
+        +updateChemHubPage(chemHubData)
+        +updateCostCalculations(scale)
+        +getInputFeedstocks()
+        +getOutputProducts()
+    }
+    
+    class LoopCraftedPage {
+        +uuid id
+        +uuid valueChainId
+        +string name
+        +string description
+        +string[] images
+        +string applications
+        +Map~string, string~ technicalSpecs
+        +string qualityParameters
+        +string testingMethods
+        +Map~string, number~ marketValueRange
+        +string demandTrends
+        +string[] certifications
+        +Date createdAt
+        +Date updatedAt
+        +createLoopCraftedPage(productData)
+        +updateLoopCraftedPage(productData)
+        +addImage(image)
+        +removeImage(imageId)
+        +getSourceProcesses()
+        +getMarketListings()
+    }
+    
+    class ResourceConnection {
+        +uuid id
+        +uuid sourceId
+        +string sourceType
+        +uuid targetId
+        +string targetType
+        +string relationshipType
+        +createConnection(sourceId, sourceType, targetId, targetType, relationshipType)
+        +removeConnection()
+    }
+    
+    class MarketplaceListing {
+        +uuid id
+        +uuid sellerId
+        +ListingType type
+        +uuid resourceId
+        +string title
+        +string description
+        +number price
+        +string currency
+        +number quantity
+        +string unit
+        +string[] images
+        +uuid locationId
+        +Date availableFrom
+        +Date availableTo
+        +ListingStatus status
+        +Date createdAt
+        +Date updatedAt
+        +createListing(listingData)
+        +updateListing(listingData)
+        +changeStatus(status)
+        +addImage(image)
+        +removeImage(imageId)
+    }
+    
+    class ListingType {
+        <<enumeration>>
+        FEEDSTOCK
+        PRODUCT
+        EQUIPMENT
+        SERVICE
+    }
+    
+    class ListingStatus {
+        <<enumeration>>
+        ACTIVE
+        PENDING
+        SOLD
+        EXPIRED
+        CANCELLED
+    }
+    
+    class Transaction {
+        +uuid id
+        +uuid listingId
+        +uuid buyerId
+        +uuid sellerId
+        +number quantity
+        +number totalPrice
+        +string currency
+        +TransactionStatus status
+        +Date createdAt
+        +Date updatedAt
+        +createTransaction(transactionData)
+        +updateStatus(status)
+        +cancelTransaction(reason)
+        +completeTransaction()
+    }
+    
+    class TransactionStatus {
+        <<enumeration>>
+        PENDING
+        PAID
+        SHIPPED
+        COMPLETED
+        CANCELLED
+        DISPUTED
+        REFUNDED
+    }
+    
+    class Message {
+        +uuid id
+        +uuid senderId
+        +uuid receiverId
+        +uuid relatedId
+        +string relatedType
+        +string content
+        +boolean read
+        +Date createdAt
+        +createMessage(messageData)
+        +markAsRead()
+        +getConversation(otherUserId)
+    }
+    
+    class CommunityNode {
+        +uuid id
+        +uuid ownerId
+        +string name
+        +string description
+        +string[] images
+        +uuid locationId
+        +string[] activeValueChains
+        +string contact
+        +boolean verified
+        +Date createdAt
+        +Date updatedAt
+        +createNode(nodeData)
+        +updateNode(nodeData)
+        +verifyNode()
+        +addValueChain(valueChainId)
+        +removeValueChain(valueChainId)
+        +getCurrentOffers()
+        +getCurrentNeeds()
+    }
+    
+    class Location {
+        +uuid id
+        +string address
+        +string city
+        +string state
+        +string country
+        +string postalCode
+        +number latitude
+        +number longitude
+        +createLocation(locationData)
+        +updateLocation(locationData)
+        +calculateDistance(otherLocation)
+    }
+    
+    class NodeConnection {
+        +uuid id
+        +uuid sourceNodeId
+        +uuid targetNodeId
+        +string connectionType
+        +Date createdAt
+        +createConnection(connectionData)
+        +removeConnection()
+    }
+    
+    class TradeFlow {
+        +uuid id
+        +uuid transactionId
+        +uuid sourceNodeId
+        +uuid targetNodeId
+        +string resourceType
+        +number quantity
+        +Date timestamp
+        +recordTradeFlow(tradeFlowData)
+        +getFlowsBetweenNodes(sourceNodeId, targetNodeId)
+    }
+    
+    class SubscriptionPlan {
+        +uuid id
+        +string name
+        +string description
+        +number monthlyPrice
+        +number annualPrice
+        +Map~string, string~ features
+        +boolean isActive
+        +Date createdAt
+        +Date updatedAt
+        +createPlan(planData)
+        +updatePlan(planData)
+        +toggleActive(isActive)
+    }
+    
+    class Subscription {
+        +uuid id
+        +uuid userId
+        +uuid organizationId
+        +uuid planId
+        +Date startDate
+        +Date endDate
+        +string billingCycle
+        +string paymentMethod
+        +boolean autoRenew
+        +SubscriptionStatus status
+        +Date createdAt
+        +Date updatedAt
+        +createSubscription(subscriptionData)
+        +updateSubscription(subscriptionData)
+        +cancel(reason)
+        +renew()
+    }
+    
+    class SubscriptionStatus {
+        <<enumeration>>
+        ACTIVE
+        PAST_DUE
+        CANCELLED
+        EXPIRED
+    }
+    
+    class GovernanceProposal {
+        +uuid id
+        +uuid authorId
+        +string title
+        +string description
+        +string category
+        +string[] documents
+        +Date votingStart
+        +Date votingEnd
+        +ProposalStatus status
+        +Date createdAt
+        +Date updatedAt
+        +createProposal(proposalData)
+        +updateProposal(proposalData)
+        +changeStatus(status)
+        +calculateResults()
+    }
+    
+    class ProposalStatus {
+        <<enumeration>>
+        DRAFT
+        ACTIVE
+        COMPLETED
+        APPROVED
+        REJECTED
+        CANCELLED
+    }
+    
+    class Vote {
+        +uuid id
+        +uuid proposalId
+        +uuid voterId
+        +VoteOption choice
+        +number weight
+        +Date timestamp
+        +castVote(voteData)
+        +changeVote(newChoice)
+        +getVotesByProposal(proposalId)
+    }
+    
+    class VoteOption {
+        <<enumeration>>
+        YES
+        NO
+        ABSTAIN
+    }
+    
+    class GovernanceToken {
+        +uuid id
+        +uuid userId
+        +number balance
+        +Date lastDistribution
+        +createTokenRecord(userId, initialBalance)
+        +addTokens(amount, reason)
+        +removeTokens(amount, reason)
+        +transferTokens(targetUserId, amount)
+        +getTokenHistory()
+    }
+    
+    class Event {
+        +uuid id
+        +string title
+        +string description
+        +EventType type
+        +Date startDate
+        +Date endDate
+        +string location
+        +uuid organizerId
+        +string[] tags
+        +Date createdAt
+        +Date updatedAt
+        +createEvent(eventData)
+        +updateEvent(eventData)
+        +registerParticipant(userId)
+        +unregisterParticipant(userId)
+        +getParticipants()
+    }
+    
+    class EventType {
+        <<enumeration>>
+        VIRTUAL
+        IN_PERSON
+        HYBRID
+    }
+    
+    class EventParticipant {
+        +uuid eventId
+        +uuid userId
+        +Date registeredAt
+    }
+    
+    class ForumTopic {
+        +uuid id
+        +string title
+        +string content
+        +uuid authorId
+        +string category
+        +string[] tags
+        +boolean pinned
+        +number viewCount
+        +Date createdAt
+        +Date updatedAt
+        +createTopic(topicData)
+        +updateTopic(topicData)
+        +pinTopic(pinned)
+        +incrementViews()
+        +getPosts()
+    }
+    
+    class ForumPost {
+        +uuid id
+        +uuid topicId
+        +uuid authorId
+        +string content
+        +uuid parentPostId
+        +Date createdAt
+        +Date updatedAt
+        +createPost(postData)
+        +updatePost(postData)
+        +getReplies()
+    }
+
+    User "1" -- "*" OrganizationMember
+    OrganizationMember "*" -- "1" Organization
+    User "1" -- "*" Message
+    User "1" -- "*" CommunityNode
+    User "1" -- "*" Transaction : buyer
+    User "1" -- "*" Transaction : seller
+    User "1" -- "*" MarketplaceListing
+    User "1" -- "*" Subscription
+    User "1" -- "1" GovernanceToken
+    User "1" -- "*" Vote
+    User "1" -- "*" GovernanceProposal
+    User "1" -- "*" EventParticipant
+    User "1" -- "*" ForumTopic
+    User "1" -- "*" ForumPost
+    ValueChain "1" -- "1" FeedstockPage
+    ValueChain "1" -- "1" ChemHubPage
+    ValueChain "1" -- "1" LoopCraftedPage
+    ResourceConnection -- FeedstockPage
+    ResourceConnection -- ChemHubPage
+    ResourceConnection -- LoopCraftedPage
+    Location "1" -- "*" CommunityNode
+    Location "1" -- "*" MarketplaceListing
+    MarketplaceListing "1" -- "*" Transaction
+    CommunityNode "1" -- "*" NodeConnection : source
+    CommunityNode "1" -- "*" NodeConnection : target
+    CommunityNode "1" -- "*" TradeFlow : source
+    CommunityNode "1" -- "*" TradeFlow : target
+    Transaction "1" -- "1" TradeFlow
+    SubscriptionPlan "1" -- "*" Subscription
+    Organization "1" -- "*" Subscription
+    GovernanceProposal "1" -- "*" Vote
+    Event "1" -- "*" EventParticipant
+    ForumTopic "1" -- "*" ForumPost
+    ForumPost "1" -- "*" ForumPost : replies
