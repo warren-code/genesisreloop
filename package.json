@@ -1,8 +1,10 @@
 {
   "name": "genesisreloop",
   "private": true,
+  "version": "1.0.0",
   "packageManager": "pnpm@8.10.0",
   "workspaces": [
-    "shadcn-ui"
+    "packages/*",
+    "shadcnui"
   ]
 }
