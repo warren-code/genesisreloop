@@ -1,0 +1,203 @@
+{
+  "hero": {
+    "title": "ReLoop: Transform Waste into Value",
+    "subtitle": "Join the circular economy revolution with our marketplace of 100+ value chains",
+    "cta_primary": "Explore Value Chains",
+    "cta_secondary": "Join the Community"
+  },
+  "featured_chains": [
+    {
+      "id": "vc-001",
+      "title": "Cotton Waste to Bioethanol",
+      "category": "Textile Waste",
+      "image_url": "/assets/images/chains/001.jpg",
+      "profitability": "Medium",
+      "sustainability": "High",
+      "difficulty": "Medium",
+      "monthly_revenue": "\u00a320,000 - \u00a360,000",
+      "job_opportunities": 20,
+      "key_skills": [
+        "Chemical Engineering",
+        "Microbiology",
+        "Process Operation"
+      ],
+      "feedstock_id": "feed-001",
+      "product_id": "prod-001"
+    },
+    {
+      "id": "vc-002",
+      "title": "Cotton Waste to Glucose Syrup",
+      "category": "Textile Waste",
+      "image_url": "/assets/images/chains/002.jpg",
+      "profitability": "Medium",
+      "sustainability": "Medium",
+      "difficulty": "Medium-High",
+      "monthly_revenue": "\u00a315,000 - \u00a350,000",
+      "job_opportunities": 20,
+      "key_skills": [
+        "Chemical Engineering",
+        "Industrial Chemistry",
+        "Safety Management"
+      ],
+      "feedstock_id": "feed-002",
+      "product_id": "prod-002"
+    },
+    {
+      "id": "vc-003",
+      "title": "Polycotton Waste to PEF Monomers",
+      "category": "Textile Waste",
+      "image_url": "/assets/images/chains/003.jpg",
+      "profitability": "High",
+      "sustainability": "High",
+      "difficulty": "High",
+      "monthly_revenue": "\u00a350,000 - \u00a3150,000",
+      "job_opportunities": 20,
+      "key_skills": [
+        "Organic Chemistry",
+        "Catalysis",
+        "Chemical Engineering"
+      ],
+      "feedstock_id": "feed-003",
+      "product_id": "prod-003"
+    },
+    {
+      "id": "vc-004",
+      "title": "Mixed Plastic Waste to Fuel Oil",
+      "category": "Plastic Waste",
+      "image_url": "/assets/images/chains/004.jpg",
+      "profitability": "Medium-High",
+      "sustainability": "Medium",
+      "difficulty": "Medium",
+      "monthly_revenue": "\u00a330,000 - \u00a3120,000",
+      "job_opportunities": 20,
+      "key_skills": [
+        "Chemical Engineering",
+        "Process Control",
+        "Thermochemical Conversion"
+      ],
+      "feedstock_id": "feed-004",
+      "product_id": "prod-004"
+    },
+    {
+      "id": "vc-005",
+      "title": "Printed Circuit Boards to Precious Metals",
+      "category": "E-Waste",
+      "image_url": "/assets/images/chains/005.jpg",
+      "profitability": "High",
+      "sustainability": "High",
+      "difficulty": "High",
+      "monthly_revenue": "\u00a340,000 - \u00a3200,000",
+      "job_opportunities": 20,
+      "key_skills": [
+        "Metallurgical Engineering",
+        "Chemical Engineering",
+        "Analytical Chemistry"
+      ],
+      "feedstock_id": "feed-005",
+      "product_id": "prod-005"
+    },
+    {
+      "id": "vc-006",
+      "title": "Orange Peels to Limonene",
+      "category": "Food Waste",
+      "image_url": "/assets/images/chains/006.jpg",
+      "profitability": "Medium",
+      "sustainability": "High",
+      "difficulty": "Low-Medium",
+      "monthly_revenue": "\u00a310,000 - \u00a335,000",
+      "job_opportunities": 20,
+      "key_skills": [
+        "Chemical Engineering",
+        "Essential Oil Production",
+        "Quality Control"
+      ],
+      "feedstock_id": "feed-006",
+      "product_id": "prod-006"
+    },
+    {
+      "id": "vc-007",
+      "title": "Rice Husks to Silica",
+      "category": "Agricultural Waste",
+      "image_url": "/assets/images/chains/007.jpg",
+      "profitability": "Medium",
+      "sustainability": "High",
+      "difficulty": "Medium",
+      "monthly_revenue": "\u00a315,000 - \u00a345,000",
+      "job_opportunities": 20,
+      "key_skills": [
+        "Materials Science",
+        "Process Engineering",
+        "Inorganic Chemistry"
+      ],
+      "feedstock_id": "feed-007",
+      "product_id": "prod-007"
+    },
+    {
+      "id": "vc-008",
+      "title": "Concrete Waste to Aggregates",
+      "category": "Construction Waste",
+      "image_url": "/assets/images/chains/008.jpg",
+      "profitability": "Medium",
+      "sustainability": "High",
+      "difficulty": "Medium",
+      "monthly_revenue": "\u00a320,000 - \u00a370,000",
+      "job_opportunities": 20,
+      "key_skills": [
+        "Civil Engineering",
+        "Materials Testing",
+        "Equipment Operation"
+      ],
+      "feedstock_id": "feed-008",
+      "product_id": "prod-008"
+    },
+    {
+      "id": "vc-009",
+      "title": "Sawdust to Furfural",
+      "category": "Biomass Waste",
+      "image_url": "/assets/images/chains/009.jpg",
+      "profitability": "Medium-High",
+      "sustainability": "High",
+      "difficulty": "Medium-High",
+      "monthly_revenue": "\u00a325,000 - \u00a380,000",
+      "job_opportunities": 40,
+      "key_skills": [
+        "Chemical Engineering",
+        "Bioproduct Development",
+        "Process Control"
+      ],
+      "feedstock_id": "feed-009",
+      "product_id": "prod-009"
+    },
+    {
+      "id": "vc-010",
+      "title": "Waste Glass to Foam Glass",
+      "category": "Glass Waste",
+      "image_url": "/assets/images/chains/010.jpg",
+      "profitability": "Medium",
+      "sustainability": "High",
+      "difficulty": "Medium",
+      "monthly_revenue": "\u00a330,000 - \u00a390,000",
+      "job_opportunities": 20,
+      "key_skills": [
+        "Materials Engineering",
+        "Thermal Processing",
+        "Quality Control"
+      ],
+      "feedstock_id": "feed-010",
+      "product_id": "prod-010"
+    }
+  ],
+  "statistics": {
+    "value_chains": 10,
+    "job_roles": 100,
+    "active_nodes": 4,
+    "waste_streams": 10
+  },
+  "how_it_works": [
+    "Find valuable waste streams in your area",
+    "Choose a circular economy value chain",
+    "Connect with skilled professionals",
+    "Transform waste into profitable products",
+    "Join our global network of circular nodes"
+  ]
+}
