@@ -1,0 +1,3444 @@
+{
+  "marketplace": {
+    "value_chains": [
+      {
+        "id": "vc-001",
+        "category": "Textile Waste",
+        "title": "Cotton Waste to Bioethanol",
+        "feedstock": "Post-consumer cotton textiles, cellulosic waste, enzymes, yeast",
+        "product": "Bioethanol, residual solids (for biogas/compost)",
+        "process": "Pretreatment (shredding), Enzymatic Hydrolysis, Fermentation, Distillation",
+        "technology": "Shredders, hydrolysis reactors, fermentation tanks, distillation columns",
+        "skills": "Chemical Engineering, Microbiology, Process Operation, Supply Chain Management",
+        "startup_cost": "\u00a3150,000 - \u00a3750,000",
+        "monthly_revenue": "\u00a320,000 - \u00a360,000",
+        "profitability": "Medium",
+        "sustainability_score": "High",
+        "difficulty_level": "Medium",
+        "related_jobs": [
+          {
+            "title": "Natural Dye Recovery Technician",
+            "description": "Extracts and repurposes natural dyes from discarded textiles.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Bachelor's degree"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Self-taught"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Industry experience"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Industry experience"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Industry experience"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          },
+          {
+            "title": "Natural Dye Recovery Technician",
+            "description": "Extracts and repurposes natural dyes from discarded textiles.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Natural Dye Recovery Technician",
+            "description": "Extracts and repurposes natural dyes from discarded textiles.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Natural Dye Recovery Technician",
+            "description": "Extracts and repurposes natural dyes from discarded textiles.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Industry experience"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Vocational diploma"
+          },
+          {
+            "title": "Natural Dye Recovery Technician",
+            "description": "Extracts and repurposes natural dyes from discarded textiles.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Self-taught"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Industry experience"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          },
+          {
+            "title": "Natural Dye Recovery Technician",
+            "description": "Extracts and repurposes natural dyes from discarded textiles.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Project-based proof"
+          }
+        ],
+        "job_count": 20
+      },
+      {
+        "id": "vc-002",
+        "category": "Textile Waste",
+        "title": "Cotton Waste to Glucose Syrup",
+        "feedstock": "Post-consumer cotton, superconcentrated hydrochloric acid (HCl) or sulfuric acid",
+        "product": "Industrial glucose syrup, lignin-like residue",
+        "process": "Acid Hydrolysis, Neutralization, Purification",
+        "technology": "Acid-resistant reactors, filtration systems, neutralization tanks, evaporators",
+        "skills": "Chemical Engineering, Industrial Chemistry, Safety Management",
+        "startup_cost": "\u00a3100,000 - \u00a3500,000",
+        "monthly_revenue": "\u00a315,000 - \u00a350,000",
+        "profitability": "Medium",
+        "sustainability_score": "Medium",
+        "difficulty_level": "Medium-High",
+        "related_jobs": [
+          {
+            "title": "Natural Dye Recovery Technician",
+            "description": "Extracts and repurposes natural dyes from discarded textiles.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Bachelor's degree"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Self-taught"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Industry experience"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Industry experience"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Industry experience"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          },
+          {
+            "title": "Natural Dye Recovery Technician",
+            "description": "Extracts and repurposes natural dyes from discarded textiles.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Natural Dye Recovery Technician",
+            "description": "Extracts and repurposes natural dyes from discarded textiles.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Natural Dye Recovery Technician",
+            "description": "Extracts and repurposes natural dyes from discarded textiles.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Industry experience"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Vocational diploma"
+          },
+          {
+            "title": "Natural Dye Recovery Technician",
+            "description": "Extracts and repurposes natural dyes from discarded textiles.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Self-taught"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Industry experience"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          },
+          {
+            "title": "Natural Dye Recovery Technician",
+            "description": "Extracts and repurposes natural dyes from discarded textiles.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Project-based proof"
+          }
+        ],
+        "job_count": 20
+      },
+      {
+        "id": "vc-003",
+        "category": "Textile Waste",
+        "title": "Polycotton Waste to PEF Monomers",
+        "feedstock": "Polycotton textiles, superconcentrated HCl, catalysts",
+        "product": "Glucose, 2,5-Furandicarboxylic acid (FDCA), recovered polyester fiber",
+        "process": "Selective Hydrolysis (e.g., Avantium Dawn Technology), Catalytic Conversion",
+        "technology": "Specialized hydrolysis reactors, catalytic converters, separation units",
+        "skills": "Organic Chemistry, Catalysis, Chemical Engineering, Polymer Science",
+        "startup_cost": "\u00a3500,000 - \u00a33,000,000",
+        "monthly_revenue": "\u00a350,000 - \u00a3150,000",
+        "profitability": "High",
+        "sustainability_score": "High",
+        "difficulty_level": "High",
+        "related_jobs": [
+          {
+            "title": "Natural Dye Recovery Technician",
+            "description": "Extracts and repurposes natural dyes from discarded textiles.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Bachelor's degree"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Self-taught"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Industry experience"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Industry experience"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Industry experience"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          },
+          {
+            "title": "Natural Dye Recovery Technician",
+            "description": "Extracts and repurposes natural dyes from discarded textiles.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Natural Dye Recovery Technician",
+            "description": "Extracts and repurposes natural dyes from discarded textiles.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Natural Dye Recovery Technician",
+            "description": "Extracts and repurposes natural dyes from discarded textiles.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Industry experience"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Vocational diploma"
+          },
+          {
+            "title": "Natural Dye Recovery Technician",
+            "description": "Extracts and repurposes natural dyes from discarded textiles.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Self-taught"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Industry experience"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          },
+          {
+            "title": "Natural Dye Recovery Technician",
+            "description": "Extracts and repurposes natural dyes from discarded textiles.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Fabric Deconstruction Specialist",
+            "description": "Separates blended fabrics for recycling into new textiles.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Project-based proof"
+          }
+        ],
+        "job_count": 20
+      },
+      {
+        "id": "vc-004",
+        "category": "Plastic Waste",
+        "title": "Mixed Plastic Waste to Fuel Oil",
+        "feedstock": "Mixed post-consumer plastics (PE, PP, PS), catalyst",
+        "product": "Diesel-like fuel oil, gasoline fraction, gas fraction",
+        "process": "Pyrolysis, Catalytic Cracking, Distillation",
+        "technology": "Pyrolysis reactor, catalytic cracking unit, distillation columns",
+        "skills": "Chemical Engineering, Process Control, Thermochemical Conversion",
+        "startup_cost": "\u00a3200,000 - \u00a31,500,000",
+        "monthly_revenue": "\u00a330,000 - \u00a3120,000",
+        "profitability": "Medium-High",
+        "sustainability_score": "Medium",
+        "difficulty_level": "Medium",
+        "related_jobs": [
+          {
+            "title": "Algae Biofuel Technician",
+            "description": "Cultivates algae using wastewater for conversion into biofuel.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Algae Biofuel Technician",
+            "description": "Cultivates algae using wastewater for conversion into biofuel.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Waste Pyrolysis Operator",
+            "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Algae Biofuel Technician",
+            "description": "Cultivates algae using wastewater for conversion into biofuel.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "Master\u2019s degree"
+          },
+          {
+            "title": "Algae Biofuel Technician",
+            "description": "Cultivates algae using wastewater for conversion into biofuel.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "Industry experience"
+          },
+          {
+            "title": "Algae Biofuel Technician",
+            "description": "Cultivates algae using wastewater for conversion into biofuel.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Vocational diploma"
+          },
+          {
+            "title": "Waste Pyrolysis Operator",
+            "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          },
+          {
+            "title": "Algae Biofuel Technician",
+            "description": "Cultivates algae using wastewater for conversion into biofuel.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Bachelor's degree"
+          },
+          {
+            "title": "Waste Pyrolysis Operator",
+            "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Waste Pyrolysis Operator",
+            "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Algae Biofuel Technician",
+            "description": "Cultivates algae using wastewater for conversion into biofuel.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          },
+          {
+            "title": "Algae Biofuel Technician",
+            "description": "Cultivates algae using wastewater for conversion into biofuel.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Waste Pyrolysis Operator",
+            "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Bachelor's degree"
+          },
+          {
+            "title": "Algae Biofuel Technician",
+            "description": "Cultivates algae using wastewater for conversion into biofuel.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Waste Pyrolysis Operator",
+            "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "Master\u2019s degree"
+          },
+          {
+            "title": "Waste Pyrolysis Operator",
+            "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Bachelor's degree"
+          },
+          {
+            "title": "Waste Pyrolysis Operator",
+            "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Vocational diploma"
+          },
+          {
+            "title": "Waste Pyrolysis Operator",
+            "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Algae Biofuel Technician",
+            "description": "Cultivates algae using wastewater for conversion into biofuel.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "Master\u2019s degree"
+          },
+          {
+            "title": "Algae Biofuel Technician",
+            "description": "Cultivates algae using wastewater for conversion into biofuel.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "Industry experience"
+          }
+        ],
+        "job_count": 20
+      },
+      {
+        "id": "vc-005",
+        "category": "E-Waste",
+        "title": "Printed Circuit Boards to Precious Metals",
+        "feedstock": "End-of-life printed circuit boards (PCBs), leaching chemicals",
+        "product": "Gold, silver, palladium, copper concentrate",
+        "process": "Mechanical Processing, Hydrometallurgical Leaching, Selective Precipitation",
+        "technology": "Shredders, leaching tanks, precipitation vessels, filtration equipment",
+        "skills": "Metallurgical Engineering, Chemical Engineering, Analytical Chemistry",
+        "startup_cost": "\u00a3300,000 - \u00a32,000,000",
+        "monthly_revenue": "\u00a340,000 - \u00a3200,000",
+        "profitability": "High",
+        "sustainability_score": "High",
+        "difficulty_level": "High",
+        "related_jobs": [
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "3D Print Reclaimer",
+            "description": "Uses recycled plastic filaments for local 3D-printed goods.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Self-taught"
+          },
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "3D Print Reclaimer",
+            "description": "Uses recycled plastic filaments for local 3D-printed goods.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "3D Print Reclaimer",
+            "description": "Uses recycled plastic filaments for local 3D-printed goods.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Bachelor's degree"
+          },
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          },
+          {
+            "title": "3D Print Reclaimer",
+            "description": "Uses recycled plastic filaments for local 3D-printed goods.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "3D Print Reclaimer",
+            "description": "Uses recycled plastic filaments for local 3D-printed goods.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Self-taught"
+          },
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "Industry experience"
+          },
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          },
+          {
+            "title": "3D Print Reclaimer",
+            "description": "Uses recycled plastic filaments for local 3D-printed goods.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "Master\u2019s degree"
+          },
+          {
+            "title": "3D Print Reclaimer",
+            "description": "Uses recycled plastic filaments for local 3D-printed goods.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "Master\u2019s degree"
+          },
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          }
+        ],
+        "job_count": 20
+      },
+      {
+        "id": "vc-006",
+        "category": "Food Waste",
+        "title": "Orange Peels to Limonene",
+        "feedstock": "Citrus fruit peels (orange, lemon), steam",
+        "product": "D-Limonene, citrus oil fractions",
+        "process": "Steam Distillation, Fractionation",
+        "technology": "Steam generator, distillation unit, condensers, separation equipment",
+        "skills": "Chemical Engineering, Essential Oil Production, Quality Control",
+        "startup_cost": "\u00a350,000 - \u00a3250,000",
+        "monthly_revenue": "\u00a310,000 - \u00a335,000",
+        "profitability": "Medium",
+        "sustainability_score": "High",
+        "difficulty_level": "Low-Medium",
+        "related_jobs": [
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Self-taught"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Vocational diploma"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Self-taught"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Vocational diploma"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "Master\u2019s degree"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Bachelor's degree"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Industry experience"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          }
+        ],
+        "job_count": 20
+      },
+      {
+        "id": "vc-007",
+        "category": "Agricultural Waste",
+        "title": "Rice Husks to Silica",
+        "feedstock": "Rice husks, sodium hydroxide",
+        "product": "Precipitated silica, sodium silicate",
+        "process": "Alkali Extraction, Acid Precipitation, Calcination",
+        "technology": "Reactors, filter presses, calcination furnace",
+        "skills": "Materials Science, Process Engineering, Inorganic Chemistry",
+        "startup_cost": "\u00a3100,000 - \u00a3400,000",
+        "monthly_revenue": "\u00a315,000 - \u00a345,000",
+        "profitability": "Medium",
+        "sustainability_score": "High",
+        "difficulty_level": "Medium",
+        "related_jobs": [
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Self-taught"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Vocational diploma"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Self-taught"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Vocational diploma"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "Master\u2019s degree"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Bachelor's degree"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Industry experience"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          }
+        ],
+        "job_count": 20
+      },
+      {
+        "id": "vc-008",
+        "category": "Construction Waste",
+        "title": "Concrete Waste to Aggregates",
+        "feedstock": "Demolished concrete, crushing equipment",
+        "product": "Recycled concrete aggregates (RCA)",
+        "process": "Crushing, Screening, Contaminant Removal",
+        "technology": "Jaw crushers, impact crushers, screening equipment, magnetic separators",
+        "skills": "Civil Engineering, Materials Testing, Equipment Operation",
+        "startup_cost": "\u00a3150,000 - \u00a3800,000",
+        "monthly_revenue": "\u00a320,000 - \u00a370,000",
+        "profitability": "Medium",
+        "sustainability_score": "High",
+        "difficulty_level": "Medium",
+        "related_jobs": [
+          {
+            "title": "Recycled Aggregate Technician",
+            "description": "Processes construction debris into usable aggregate material.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Green Insulation Specialist",
+            "description": "Produces and installs insulation from cotton and cellulose waste.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Green Insulation Specialist",
+            "description": "Produces and installs insulation from cotton and cellulose waste.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Industry experience"
+          },
+          {
+            "title": "Recycled Aggregate Technician",
+            "description": "Processes construction debris into usable aggregate material.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Recycled Aggregate Technician",
+            "description": "Processes construction debris into usable aggregate material.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Green Insulation Specialist",
+            "description": "Produces and installs insulation from cotton and cellulose waste.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Green Insulation Specialist",
+            "description": "Produces and installs insulation from cotton and cellulose waste.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Recycled Aggregate Technician",
+            "description": "Processes construction debris into usable aggregate material.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Self-taught"
+          },
+          {
+            "title": "Green Insulation Specialist",
+            "description": "Produces and installs insulation from cotton and cellulose waste.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "Industry experience"
+          },
+          {
+            "title": "Green Insulation Specialist",
+            "description": "Produces and installs insulation from cotton and cellulose waste.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Recycled Aggregate Technician",
+            "description": "Processes construction debris into usable aggregate material.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Recycled Aggregate Technician",
+            "description": "Processes construction debris into usable aggregate material.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Green Insulation Specialist",
+            "description": "Produces and installs insulation from cotton and cellulose waste.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Bachelor's degree"
+          },
+          {
+            "title": "Recycled Aggregate Technician",
+            "description": "Processes construction debris into usable aggregate material.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Recycled Aggregate Technician",
+            "description": "Processes construction debris into usable aggregate material.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Green Insulation Specialist",
+            "description": "Produces and installs insulation from cotton and cellulose waste.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          },
+          {
+            "title": "Green Insulation Specialist",
+            "description": "Produces and installs insulation from cotton and cellulose waste.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Bachelor's degree"
+          },
+          {
+            "title": "Green Insulation Specialist",
+            "description": "Produces and installs insulation from cotton and cellulose waste.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Recycled Aggregate Technician",
+            "description": "Processes construction debris into usable aggregate material.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Green Insulation Specialist",
+            "description": "Produces and installs insulation from cotton and cellulose waste.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Vocational diploma"
+          }
+        ],
+        "job_count": 20
+      },
+      {
+        "id": "vc-009",
+        "category": "Biomass Waste",
+        "title": "Sawdust to Furfural",
+        "feedstock": "Sawdust, lignocellulosic waste, dilute sulfuric acid",
+        "product": "Furfural, lignin residue",
+        "process": "Acid Hydrolysis, Steam Distillation",
+        "technology": "Acid-resistant reactors, distillation columns, condensers",
+        "skills": "Chemical Engineering, Bioproduct Development, Process Control",
+        "startup_cost": "\u00a3200,000 - \u00a3900,000",
+        "monthly_revenue": "\u00a325,000 - \u00a380,000",
+        "profitability": "Medium-High",
+        "sustainability_score": "High",
+        "difficulty_level": "Medium-High",
+        "related_jobs": [
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Self-taught"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Vocational diploma"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Self-taught"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Vocational diploma"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "Master\u2019s degree"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Bachelor's degree"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          },
+          {
+            "title": "Organic Waste Analyzer",
+            "description": "Tests and categorizes biomass types for optimal bioconversion.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Industry experience"
+          },
+          {
+            "title": "Bio-Ethanol Production Operator",
+            "description": "Operates machinery to convert biomass waste into bioethanol.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          },
+          {
+            "title": "Algae Biofuel Technician",
+            "description": "Cultivates algae using wastewater for conversion into biofuel.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Algae Biofuel Technician",
+            "description": "Cultivates algae using wastewater for conversion into biofuel.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Waste Pyrolysis Operator",
+            "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Algae Biofuel Technician",
+            "description": "Cultivates algae using wastewater for conversion into biofuel.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "Master\u2019s degree"
+          },
+          {
+            "title": "Algae Biofuel Technician",
+            "description": "Cultivates algae using wastewater for conversion into biofuel.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "Industry experience"
+          },
+          {
+            "title": "Algae Biofuel Technician",
+            "description": "Cultivates algae using wastewater for conversion into biofuel.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Vocational diploma"
+          },
+          {
+            "title": "Waste Pyrolysis Operator",
+            "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          },
+          {
+            "title": "Algae Biofuel Technician",
+            "description": "Cultivates algae using wastewater for conversion into biofuel.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Bachelor's degree"
+          },
+          {
+            "title": "Waste Pyrolysis Operator",
+            "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Waste Pyrolysis Operator",
+            "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Algae Biofuel Technician",
+            "description": "Cultivates algae using wastewater for conversion into biofuel.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          },
+          {
+            "title": "Algae Biofuel Technician",
+            "description": "Cultivates algae using wastewater for conversion into biofuel.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Waste Pyrolysis Operator",
+            "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Bachelor's degree"
+          },
+          {
+            "title": "Algae Biofuel Technician",
+            "description": "Cultivates algae using wastewater for conversion into biofuel.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Waste Pyrolysis Operator",
+            "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "Master\u2019s degree"
+          },
+          {
+            "title": "Waste Pyrolysis Operator",
+            "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Bachelor's degree"
+          },
+          {
+            "title": "Waste Pyrolysis Operator",
+            "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Vocational diploma"
+          },
+          {
+            "title": "Waste Pyrolysis Operator",
+            "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Algae Biofuel Technician",
+            "description": "Cultivates algae using wastewater for conversion into biofuel.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "Master\u2019s degree"
+          },
+          {
+            "title": "Algae Biofuel Technician",
+            "description": "Cultivates algae using wastewater for conversion into biofuel.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "Industry experience"
+          }
+        ],
+        "job_count": 40
+      },
+      {
+        "id": "vc-010",
+        "category": "Glass Waste",
+        "title": "Waste Glass to Foam Glass",
+        "feedstock": "Mixed waste glass, foaming agent (SiC, CaCO3)",
+        "product": "Foam glass insulation panels",
+        "process": "Crushing, Mixing, Sintering, Annealing",
+        "technology": "Glass crushers, mixers, tunnel kiln, annealing lehr",
+        "skills": "Materials Engineering, Thermal Processing, Quality Control",
+        "startup_cost": "\u00a3300,000 - \u00a31,200,000",
+        "monthly_revenue": "\u00a330,000 - \u00a390,000",
+        "profitability": "Medium",
+        "sustainability_score": "High",
+        "difficulty_level": "Medium",
+        "related_jobs": [
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "3D Print Reclaimer",
+            "description": "Uses recycled plastic filaments for local 3D-printed goods.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Self-taught"
+          },
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "3D Print Reclaimer",
+            "description": "Uses recycled plastic filaments for local 3D-printed goods.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "3D Print Reclaimer",
+            "description": "Uses recycled plastic filaments for local 3D-printed goods.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a345k\u2013\u00a365k",
+            "level": "Managerial",
+            "education_path": "Bachelor's degree"
+          },
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Project-based proof"
+          },
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          },
+          {
+            "title": "3D Print Reclaimer",
+            "description": "Uses recycled plastic filaments for local 3D-printed goods.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "3D Print Reclaimer",
+            "description": "Uses recycled plastic filaments for local 3D-printed goods.",
+            "suggested_pay": "\u00a320k\u2013\u00a330k",
+            "level": "Entry level",
+            "education_path": "Self-taught"
+          },
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "Industry experience"
+          },
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          },
+          {
+            "title": "3D Print Reclaimer",
+            "description": "Uses recycled plastic filaments for local 3D-printed goods.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "Master\u2019s degree"
+          },
+          {
+            "title": "3D Print Reclaimer",
+            "description": "Uses recycled plastic filaments for local 3D-printed goods.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "Master\u2019s degree"
+          },
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a330k\u2013\u00a345k",
+            "level": "Mid level",
+            "education_path": "Online course"
+          },
+          {
+            "title": "Repair Caf\u00e9 Coordinator",
+            "description": "Manages local pop-ups for community-led repairs and upcycling.",
+            "suggested_pay": "\u00a365k\u2013\u00a390k+",
+            "level": "Expert",
+            "education_path": "PhD"
+          }
+        ],
+        "job_count": 20
+      }
+    ],
+    "feedstock_sources": [
+      {
+        "id": "feed-001",
+        "name": "Post-consumer cotton textiles",
+        "description": "Post-consumer cotton textiles, cellulosic waste, enzymes, yeast",
+        "source_types": [
+          "Industrial",
+          "Post-consumer",
+          "Agricultural"
+        ],
+        "related_chains": [
+          "vc-001"
+        ],
+        "sustainability_impact": "High",
+        "collection_methods": [
+          "Direct collection",
+          "Waste sorting"
+        ]
+      },
+      {
+        "id": "feed-002",
+        "name": "Post-consumer cotton",
+        "description": "Post-consumer cotton, superconcentrated hydrochloric acid (HCl) or sulfuric acid",
+        "source_types": [
+          "Industrial",
+          "Post-consumer",
+          "Agricultural"
+        ],
+        "related_chains": [
+          "vc-002"
+        ],
+        "sustainability_impact": "High",
+        "collection_methods": [
+          "Direct collection",
+          "Waste sorting"
+        ]
+      },
+      {
+        "id": "feed-003",
+        "name": "Polycotton textiles",
+        "description": "Polycotton textiles, superconcentrated HCl, catalysts",
+        "source_types": [
+          "Industrial",
+          "Post-consumer",
+          "Agricultural"
+        ],
+        "related_chains": [
+          "vc-003"
+        ],
+        "sustainability_impact": "High",
+        "collection_methods": [
+          "Direct collection",
+          "Waste sorting"
+        ]
+      },
+      {
+        "id": "feed-004",
+        "name": "Mixed post-consumer plastics (PE",
+        "description": "Mixed post-consumer plastics (PE, PP, PS), catalyst",
+        "source_types": [
+          "Industrial",
+          "Post-consumer",
+          "Agricultural"
+        ],
+        "related_chains": [
+          "vc-004"
+        ],
+        "sustainability_impact": "High",
+        "collection_methods": [
+          "Direct collection",
+          "Waste sorting"
+        ]
+      },
+      {
+        "id": "feed-005",
+        "name": "End-of-life printed circuit boards (PCBs)",
+        "description": "End-of-life printed circuit boards (PCBs), leaching chemicals",
+        "source_types": [
+          "Industrial",
+          "Post-consumer",
+          "Agricultural"
+        ],
+        "related_chains": [
+          "vc-005"
+        ],
+        "sustainability_impact": "High",
+        "collection_methods": [
+          "Direct collection",
+          "Waste sorting"
+        ]
+      },
+      {
+        "id": "feed-006",
+        "name": "Citrus fruit peels (orange",
+        "description": "Citrus fruit peels (orange, lemon), steam",
+        "source_types": [
+          "Industrial",
+          "Post-consumer",
+          "Agricultural"
+        ],
+        "related_chains": [
+          "vc-006"
+        ],
+        "sustainability_impact": "High",
+        "collection_methods": [
+          "Direct collection",
+          "Waste sorting"
+        ]
+      },
+      {
+        "id": "feed-007",
+        "name": "Rice husks",
+        "description": "Rice husks, sodium hydroxide",
+        "source_types": [
+          "Industrial",
+          "Post-consumer",
+          "Agricultural"
+        ],
+        "related_chains": [
+          "vc-007"
+        ],
+        "sustainability_impact": "High",
+        "collection_methods": [
+          "Direct collection",
+          "Waste sorting"
+        ]
+      },
+      {
+        "id": "feed-008",
+        "name": "Demolished concrete",
+        "description": "Demolished concrete, crushing equipment",
+        "source_types": [
+          "Industrial",
+          "Post-consumer",
+          "Agricultural"
+        ],
+        "related_chains": [
+          "vc-008"
+        ],
+        "sustainability_impact": "High",
+        "collection_methods": [
+          "Direct collection",
+          "Waste sorting"
+        ]
+      },
+      {
+        "id": "feed-009",
+        "name": "Sawdust",
+        "description": "Sawdust, lignocellulosic waste, dilute sulfuric acid",
+        "source_types": [
+          "Industrial",
+          "Post-consumer",
+          "Agricultural"
+        ],
+        "related_chains": [
+          "vc-009"
+        ],
+        "sustainability_impact": "High",
+        "collection_methods": [
+          "Direct collection",
+          "Waste sorting"
+        ]
+      },
+      {
+        "id": "feed-010",
+        "name": "Mixed waste glass",
+        "description": "Mixed waste glass, foaming agent (SiC, CaCO3)",
+        "source_types": [
+          "Industrial",
+          "Post-consumer",
+          "Agricultural"
+        ],
+        "related_chains": [
+          "vc-010"
+        ],
+        "sustainability_impact": "High",
+        "collection_methods": [
+          "Direct collection",
+          "Waste sorting"
+        ]
+      }
+    ],
+    "products": [
+      {
+        "id": "prod-001",
+        "name": "Bioethanol",
+        "description": "Bioethanol, residual solids (for biogas/compost)",
+        "applications": [
+          "Industrial",
+          "Consumer",
+          "Commercial"
+        ],
+        "related_chains": [
+          "vc-001"
+        ],
+        "market_value": "\u00a320,000 - \u00a360,000",
+        "certifications": []
+      },
+      {
+        "id": "prod-002",
+        "name": "Industrial glucose syrup",
+        "description": "Industrial glucose syrup, lignin-like residue",
+        "applications": [
+          "Industrial",
+          "Consumer",
+          "Commercial"
+        ],
+        "related_chains": [
+          "vc-002"
+        ],
+        "market_value": "\u00a315,000 - \u00a350,000",
+        "certifications": []
+      },
+      {
+        "id": "prod-003",
+        "name": "Glucose",
+        "description": "Glucose, 2,5-Furandicarboxylic acid (FDCA), recovered polyester fiber",
+        "applications": [
+          "Industrial",
+          "Consumer",
+          "Commercial"
+        ],
+        "related_chains": [
+          "vc-003"
+        ],
+        "market_value": "\u00a350,000 - \u00a3150,000",
+        "certifications": []
+      },
+      {
+        "id": "prod-004",
+        "name": "Diesel-like fuel oil",
+        "description": "Diesel-like fuel oil, gasoline fraction, gas fraction",
+        "applications": [
+          "Industrial",
+          "Consumer",
+          "Commercial"
+        ],
+        "related_chains": [
+          "vc-004"
+        ],
+        "market_value": "\u00a330,000 - \u00a3120,000",
+        "certifications": []
+      },
+      {
+        "id": "prod-005",
+        "name": "Gold",
+        "description": "Gold, silver, palladium, copper concentrate",
+        "applications": [
+          "Industrial",
+          "Consumer",
+          "Commercial"
+        ],
+        "related_chains": [
+          "vc-005"
+        ],
+        "market_value": "\u00a340,000 - \u00a3200,000",
+        "certifications": []
+      },
+      {
+        "id": "prod-006",
+        "name": "D-Limonene",
+        "description": "D-Limonene, citrus oil fractions",
+        "applications": [
+          "Industrial",
+          "Consumer",
+          "Commercial"
+        ],
+        "related_chains": [
+          "vc-006"
+        ],
+        "market_value": "\u00a310,000 - \u00a335,000",
+        "certifications": []
+      },
+      {
+        "id": "prod-007",
+        "name": "Precipitated silica",
+        "description": "Precipitated silica, sodium silicate",
+        "applications": [
+          "Industrial",
+          "Consumer",
+          "Commercial"
+        ],
+        "related_chains": [
+          "vc-007"
+        ],
+        "market_value": "\u00a315,000 - \u00a345,000",
+        "certifications": []
+      },
+      {
+        "id": "prod-008",
+        "name": "Recycled concrete aggregates (RCA)",
+        "description": "Recycled concrete aggregates (RCA)",
+        "applications": [
+          "Industrial",
+          "Consumer",
+          "Commercial"
+        ],
+        "related_chains": [
+          "vc-008"
+        ],
+        "market_value": "\u00a320,000 - \u00a370,000",
+        "certifications": []
+      },
+      {
+        "id": "prod-009",
+        "name": "Furfural",
+        "description": "Furfural, lignin residue",
+        "applications": [
+          "Industrial",
+          "Consumer",
+          "Commercial"
+        ],
+        "related_chains": [
+          "vc-009"
+        ],
+        "market_value": "\u00a325,000 - \u00a380,000",
+        "certifications": []
+      },
+      {
+        "id": "prod-010",
+        "name": "Foam glass insulation panels",
+        "description": "Foam glass insulation panels",
+        "applications": [
+          "Industrial",
+          "Consumer",
+          "Commercial"
+        ],
+        "related_chains": [
+          "vc-010"
+        ],
+        "market_value": "\u00a330,000 - \u00a390,000",
+        "certifications": []
+      }
+    ],
+    "chemhub_processes": [
+      {
+        "id": "vc-001",
+        "title": "Cotton Waste to Bioethanol",
+        "category": "Textile Waste",
+        "process_description": "Pretreatment (shredding), Enzymatic Hydrolysis, Fermentation, Distillation",
+        "scientific_basis": "The process involves pretreatment (shredding), enzymatic hydrolysis, fermentation, distillation",
+        "technology_requirements": "Shredders, hydrolysis reactors, fermentation tanks, distillation columns",
+        "skill_requirements": "Chemical Engineering, Microbiology, Process Operation, Supply Chain Management",
+        "feedstock_id": "feed-001",
+        "product_id": "prod-001",
+        "startup_cost": "\u00a3150,000 - \u00a3750,000",
+        "monthly_revenue": "\u00a320,000 - \u00a360,000",
+        "profitability": "Medium",
+        "sustainability_score": "High",
+        "difficulty_level": "Medium"
+      },
+      {
+        "id": "vc-002",
+        "title": "Cotton Waste to Glucose Syrup",
+        "category": "Textile Waste",
+        "process_description": "Acid Hydrolysis, Neutralization, Purification",
+        "scientific_basis": "The process involves acid hydrolysis, neutralization, purification",
+        "technology_requirements": "Acid-resistant reactors, filtration systems, neutralization tanks, evaporators",
+        "skill_requirements": "Chemical Engineering, Industrial Chemistry, Safety Management",
+        "feedstock_id": "feed-002",
+        "product_id": "prod-002",
+        "startup_cost": "\u00a3100,000 - \u00a3500,000",
+        "monthly_revenue": "\u00a315,000 - \u00a350,000",
+        "profitability": "Medium",
+        "sustainability_score": "Medium",
+        "difficulty_level": "Medium-High"
+      },
+      {
+        "id": "vc-003",
+        "title": "Polycotton Waste to PEF Monomers",
+        "category": "Textile Waste",
+        "process_description": "Selective Hydrolysis (e.g., Avantium Dawn Technology), Catalytic Conversion",
+        "scientific_basis": "The process involves selective hydrolysis (e.g., avantium dawn technology), catalytic conversion",
+        "technology_requirements": "Specialized hydrolysis reactors, catalytic converters, separation units",
+        "skill_requirements": "Organic Chemistry, Catalysis, Chemical Engineering, Polymer Science",
+        "feedstock_id": "feed-003",
+        "product_id": "prod-003",
+        "startup_cost": "\u00a3500,000 - \u00a33,000,000",
+        "monthly_revenue": "\u00a350,000 - \u00a3150,000",
+        "profitability": "High",
+        "sustainability_score": "High",
+        "difficulty_level": "High"
+      },
+      {
+        "id": "vc-004",
+        "title": "Mixed Plastic Waste to Fuel Oil",
+        "category": "Plastic Waste",
+        "process_description": "Pyrolysis, Catalytic Cracking, Distillation",
+        "scientific_basis": "The process involves pyrolysis, catalytic cracking, distillation",
+        "technology_requirements": "Pyrolysis reactor, catalytic cracking unit, distillation columns",
+        "skill_requirements": "Chemical Engineering, Process Control, Thermochemical Conversion",
+        "feedstock_id": "feed-004",
+        "product_id": "prod-004",
+        "startup_cost": "\u00a3200,000 - \u00a31,500,000",
+        "monthly_revenue": "\u00a330,000 - \u00a3120,000",
+        "profitability": "Medium-High",
+        "sustainability_score": "Medium",
+        "difficulty_level": "Medium"
+      },
+      {
+        "id": "vc-005",
+        "title": "Printed Circuit Boards to Precious Metals",
+        "category": "E-Waste",
+        "process_description": "Mechanical Processing, Hydrometallurgical Leaching, Selective Precipitation",
+        "scientific_basis": "The process involves mechanical processing, hydrometallurgical leaching, selective precipitation",
+        "technology_requirements": "Shredders, leaching tanks, precipitation vessels, filtration equipment",
+        "skill_requirements": "Metallurgical Engineering, Chemical Engineering, Analytical Chemistry",
+        "feedstock_id": "feed-005",
+        "product_id": "prod-005",
+        "startup_cost": "\u00a3300,000 - \u00a32,000,000",
+        "monthly_revenue": "\u00a340,000 - \u00a3200,000",
+        "profitability": "High",
+        "sustainability_score": "High",
+        "difficulty_level": "High"
+      },
+      {
+        "id": "vc-006",
+        "title": "Orange Peels to Limonene",
+        "category": "Food Waste",
+        "process_description": "Steam Distillation, Fractionation",
+        "scientific_basis": "The process involves steam distillation, fractionation",
+        "technology_requirements": "Steam generator, distillation unit, condensers, separation equipment",
+        "skill_requirements": "Chemical Engineering, Essential Oil Production, Quality Control",
+        "feedstock_id": "feed-006",
+        "product_id": "prod-006",
+        "startup_cost": "\u00a350,000 - \u00a3250,000",
+        "monthly_revenue": "\u00a310,000 - \u00a335,000",
+        "profitability": "Medium",
+        "sustainability_score": "High",
+        "difficulty_level": "Low-Medium"
+      },
+      {
+        "id": "vc-007",
+        "title": "Rice Husks to Silica",
+        "category": "Agricultural Waste",
+        "process_description": "Alkali Extraction, Acid Precipitation, Calcination",
+        "scientific_basis": "The process involves alkali extraction, acid precipitation, calcination",
+        "technology_requirements": "Reactors, filter presses, calcination furnace",
+        "skill_requirements": "Materials Science, Process Engineering, Inorganic Chemistry",
+        "feedstock_id": "feed-007",
+        "product_id": "prod-007",
+        "startup_cost": "\u00a3100,000 - \u00a3400,000",
+        "monthly_revenue": "\u00a315,000 - \u00a345,000",
+        "profitability": "Medium",
+        "sustainability_score": "High",
+        "difficulty_level": "Medium"
+      },
+      {
+        "id": "vc-008",
+        "title": "Concrete Waste to Aggregates",
+        "category": "Construction Waste",
+        "process_description": "Crushing, Screening, Contaminant Removal",
+        "scientific_basis": "The process involves crushing, screening, contaminant removal",
+        "technology_requirements": "Jaw crushers, impact crushers, screening equipment, magnetic separators",
+        "skill_requirements": "Civil Engineering, Materials Testing, Equipment Operation",
+        "feedstock_id": "feed-008",
+        "product_id": "prod-008",
+        "startup_cost": "\u00a3150,000 - \u00a3800,000",
+        "monthly_revenue": "\u00a320,000 - \u00a370,000",
+        "profitability": "Medium",
+        "sustainability_score": "High",
+        "difficulty_level": "Medium"
+      },
+      {
+        "id": "vc-009",
+        "title": "Sawdust to Furfural",
+        "category": "Biomass Waste",
+        "process_description": "Acid Hydrolysis, Steam Distillation",
+        "scientific_basis": "The process involves acid hydrolysis, steam distillation",
+        "technology_requirements": "Acid-resistant reactors, distillation columns, condensers",
+        "skill_requirements": "Chemical Engineering, Bioproduct Development, Process Control",
+        "feedstock_id": "feed-009",
+        "product_id": "prod-009",
+        "startup_cost": "\u00a3200,000 - \u00a3900,000",
+        "monthly_revenue": "\u00a325,000 - \u00a380,000",
+        "profitability": "Medium-High",
+        "sustainability_score": "High",
+        "difficulty_level": "Medium-High"
+      },
+      {
+        "id": "vc-010",
+        "title": "Waste Glass to Foam Glass",
+        "category": "Glass Waste",
+        "process_description": "Crushing, Mixing, Sintering, Annealing",
+        "scientific_basis": "The process involves crushing, mixing, sintering, annealing",
+        "technology_requirements": "Glass crushers, mixers, tunnel kiln, annealing lehr",
+        "skill_requirements": "Materials Engineering, Thermal Processing, Quality Control",
+        "feedstock_id": "feed-010",
+        "product_id": "prod-010",
+        "startup_cost": "\u00a3300,000 - \u00a31,200,000",
+        "monthly_revenue": "\u00a330,000 - \u00a390,000",
+        "profitability": "Medium",
+        "sustainability_score": "High",
+        "difficulty_level": "Medium"
+      }
+    ]
+  },
+  "job_market": {
+    "job_roles": [
+      {
+        "sector": "Textile & Fashion Circularity",
+        "job_title": "Natural Dye Recovery Technician",
+        "description": "Extracts and repurposes natural dyes from discarded textiles.",
+        "suggested_pay": "\u00a345k\u2013\u00a365k",
+        "level": "Managerial",
+        "education_path": "Bachelor's degree"
+      },
+      {
+        "sector": "Textile & Fashion Circularity",
+        "job_title": "Fabric Deconstruction Specialist",
+        "description": "Separates blended fabrics for recycling into new textiles.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Self-taught"
+      },
+      {
+        "sector": "Textile & Fashion Circularity",
+        "job_title": "Fabric Deconstruction Specialist",
+        "description": "Separates blended fabrics for recycling into new textiles.",
+        "suggested_pay": "\u00a345k\u2013\u00a365k",
+        "level": "Managerial",
+        "education_path": "Industry experience"
+      },
+      {
+        "sector": "Textile & Fashion Circularity",
+        "job_title": "Fabric Deconstruction Specialist",
+        "description": "Separates blended fabrics for recycling into new textiles.",
+        "suggested_pay": "\u00a345k\u2013\u00a365k",
+        "level": "Managerial",
+        "education_path": "Industry experience"
+      },
+      {
+        "sector": "Textile & Fashion Circularity",
+        "job_title": "Fabric Deconstruction Specialist",
+        "description": "Separates blended fabrics for recycling into new textiles.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Textile & Fashion Circularity",
+        "job_title": "Fabric Deconstruction Specialist",
+        "description": "Separates blended fabrics for recycling into new textiles.",
+        "suggested_pay": "\u00a345k\u2013\u00a365k",
+        "level": "Managerial",
+        "education_path": "Industry experience"
+      },
+      {
+        "sector": "Textile & Fashion Circularity",
+        "job_title": "Fabric Deconstruction Specialist",
+        "description": "Separates blended fabrics for recycling into new textiles.",
+        "suggested_pay": "\u00a365k\u2013\u00a390k+",
+        "level": "Expert",
+        "education_path": "PhD"
+      },
+      {
+        "sector": "Textile & Fashion Circularity",
+        "job_title": "Natural Dye Recovery Technician",
+        "description": "Extracts and repurposes natural dyes from discarded textiles.",
+        "suggested_pay": "\u00a330k\u2013\u00a345k",
+        "level": "Mid level",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Textile & Fashion Circularity",
+        "job_title": "Fabric Deconstruction Specialist",
+        "description": "Separates blended fabrics for recycling into new textiles.",
+        "suggested_pay": "\u00a330k\u2013\u00a345k",
+        "level": "Mid level",
+        "education_path": "Online course"
+      },
+      {
+        "sector": "Textile & Fashion Circularity",
+        "job_title": "Natural Dye Recovery Technician",
+        "description": "Extracts and repurposes natural dyes from discarded textiles.",
+        "suggested_pay": "\u00a345k\u2013\u00a365k",
+        "level": "Managerial",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Textile & Fashion Circularity",
+        "job_title": "Fabric Deconstruction Specialist",
+        "description": "Separates blended fabrics for recycling into new textiles.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Textile & Fashion Circularity",
+        "job_title": "Natural Dye Recovery Technician",
+        "description": "Extracts and repurposes natural dyes from discarded textiles.",
+        "suggested_pay": "\u00a330k\u2013\u00a345k",
+        "level": "Mid level",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Textile & Fashion Circularity",
+        "job_title": "Fabric Deconstruction Specialist",
+        "description": "Separates blended fabrics for recycling into new textiles.",
+        "suggested_pay": "\u00a330k\u2013\u00a345k",
+        "level": "Mid level",
+        "education_path": "Online course"
+      },
+      {
+        "sector": "Textile & Fashion Circularity",
+        "job_title": "Fabric Deconstruction Specialist",
+        "description": "Separates blended fabrics for recycling into new textiles.",
+        "suggested_pay": "\u00a345k\u2013\u00a365k",
+        "level": "Managerial",
+        "education_path": "Industry experience"
+      },
+      {
+        "sector": "Textile & Fashion Circularity",
+        "job_title": "Fabric Deconstruction Specialist",
+        "description": "Separates blended fabrics for recycling into new textiles.",
+        "suggested_pay": "\u00a330k\u2013\u00a345k",
+        "level": "Mid level",
+        "education_path": "Vocational diploma"
+      },
+      {
+        "sector": "Textile & Fashion Circularity",
+        "job_title": "Natural Dye Recovery Technician",
+        "description": "Extracts and repurposes natural dyes from discarded textiles.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Self-taught"
+      },
+      {
+        "sector": "Textile & Fashion Circularity",
+        "job_title": "Fabric Deconstruction Specialist",
+        "description": "Separates blended fabrics for recycling into new textiles.",
+        "suggested_pay": "\u00a345k\u2013\u00a365k",
+        "level": "Managerial",
+        "education_path": "Industry experience"
+      },
+      {
+        "sector": "Textile & Fashion Circularity",
+        "job_title": "Fabric Deconstruction Specialist",
+        "description": "Separates blended fabrics for recycling into new textiles.",
+        "suggested_pay": "\u00a365k\u2013\u00a390k+",
+        "level": "Expert",
+        "education_path": "PhD"
+      },
+      {
+        "sector": "Textile & Fashion Circularity",
+        "job_title": "Natural Dye Recovery Technician",
+        "description": "Extracts and repurposes natural dyes from discarded textiles.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Textile & Fashion Circularity",
+        "job_title": "Fabric Deconstruction Specialist",
+        "description": "Separates blended fabrics for recycling into new textiles.",
+        "suggested_pay": "\u00a345k\u2013\u00a365k",
+        "level": "Managerial",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Bio-Based Materials & Waste Conversion",
+        "job_title": "Bio-Ethanol Production Operator",
+        "description": "Operates machinery to convert biomass waste into bioethanol.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Self-taught"
+      },
+      {
+        "sector": "Bio-Based Materials & Waste Conversion",
+        "job_title": "Organic Waste Analyzer",
+        "description": "Tests and categorizes biomass types for optimal bioconversion.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Online course"
+      },
+      {
+        "sector": "Bio-Based Materials & Waste Conversion",
+        "job_title": "Organic Waste Analyzer",
+        "description": "Tests and categorizes biomass types for optimal bioconversion.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Bio-Based Materials & Waste Conversion",
+        "job_title": "Organic Waste Analyzer",
+        "description": "Tests and categorizes biomass types for optimal bioconversion.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Bio-Based Materials & Waste Conversion",
+        "job_title": "Bio-Ethanol Production Operator",
+        "description": "Operates machinery to convert biomass waste into bioethanol.",
+        "suggested_pay": "\u00a330k\u2013\u00a345k",
+        "level": "Mid level",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Bio-Based Materials & Waste Conversion",
+        "job_title": "Bio-Ethanol Production Operator",
+        "description": "Operates machinery to convert biomass waste into bioethanol.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Bio-Based Materials & Waste Conversion",
+        "job_title": "Bio-Ethanol Production Operator",
+        "description": "Operates machinery to convert biomass waste into bioethanol.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Online course"
+      },
+      {
+        "sector": "Bio-Based Materials & Waste Conversion",
+        "job_title": "Organic Waste Analyzer",
+        "description": "Tests and categorizes biomass types for optimal bioconversion.",
+        "suggested_pay": "\u00a330k\u2013\u00a345k",
+        "level": "Mid level",
+        "education_path": "Online course"
+      },
+      {
+        "sector": "Bio-Based Materials & Waste Conversion",
+        "job_title": "Organic Waste Analyzer",
+        "description": "Tests and categorizes biomass types for optimal bioconversion.",
+        "suggested_pay": "\u00a365k\u2013\u00a390k+",
+        "level": "Expert",
+        "education_path": "PhD"
+      },
+      {
+        "sector": "Bio-Based Materials & Waste Conversion",
+        "job_title": "Bio-Ethanol Production Operator",
+        "description": "Operates machinery to convert biomass waste into bioethanol.",
+        "suggested_pay": "\u00a330k\u2013\u00a345k",
+        "level": "Mid level",
+        "education_path": "Vocational diploma"
+      },
+      {
+        "sector": "Bio-Based Materials & Waste Conversion",
+        "job_title": "Organic Waste Analyzer",
+        "description": "Tests and categorizes biomass types for optimal bioconversion.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Self-taught"
+      },
+      {
+        "sector": "Bio-Based Materials & Waste Conversion",
+        "job_title": "Bio-Ethanol Production Operator",
+        "description": "Operates machinery to convert biomass waste into bioethanol.",
+        "suggested_pay": "\u00a330k\u2013\u00a345k",
+        "level": "Mid level",
+        "education_path": "Vocational diploma"
+      },
+      {
+        "sector": "Bio-Based Materials & Waste Conversion",
+        "job_title": "Bio-Ethanol Production Operator",
+        "description": "Operates machinery to convert biomass waste into bioethanol.",
+        "suggested_pay": "\u00a365k\u2013\u00a390k+",
+        "level": "Expert",
+        "education_path": "Master\u2019s degree"
+      },
+      {
+        "sector": "Bio-Based Materials & Waste Conversion",
+        "job_title": "Organic Waste Analyzer",
+        "description": "Tests and categorizes biomass types for optimal bioconversion.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Bio-Based Materials & Waste Conversion",
+        "job_title": "Organic Waste Analyzer",
+        "description": "Tests and categorizes biomass types for optimal bioconversion.",
+        "suggested_pay": "\u00a345k\u2013\u00a365k",
+        "level": "Managerial",
+        "education_path": "Bachelor's degree"
+      },
+      {
+        "sector": "Bio-Based Materials & Waste Conversion",
+        "job_title": "Organic Waste Analyzer",
+        "description": "Tests and categorizes biomass types for optimal bioconversion.",
+        "suggested_pay": "\u00a365k\u2013\u00a390k+",
+        "level": "Expert",
+        "education_path": "PhD"
+      },
+      {
+        "sector": "Bio-Based Materials & Waste Conversion",
+        "job_title": "Organic Waste Analyzer",
+        "description": "Tests and categorizes biomass types for optimal bioconversion.",
+        "suggested_pay": "\u00a365k\u2013\u00a390k+",
+        "level": "Expert",
+        "education_path": "PhD"
+      },
+      {
+        "sector": "Bio-Based Materials & Waste Conversion",
+        "job_title": "Bio-Ethanol Production Operator",
+        "description": "Operates machinery to convert biomass waste into bioethanol.",
+        "suggested_pay": "\u00a345k\u2013\u00a365k",
+        "level": "Managerial",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Bio-Based Materials & Waste Conversion",
+        "job_title": "Bio-Ethanol Production Operator",
+        "description": "Operates machinery to convert biomass waste into bioethanol.",
+        "suggested_pay": "\u00a345k\u2013\u00a365k",
+        "level": "Managerial",
+        "education_path": "Industry experience"
+      },
+      {
+        "sector": "Bio-Based Materials & Waste Conversion",
+        "job_title": "Bio-Ethanol Production Operator",
+        "description": "Operates machinery to convert biomass waste into bioethanol.",
+        "suggested_pay": "\u00a365k\u2013\u00a390k+",
+        "level": "Expert",
+        "education_path": "PhD"
+      },
+      {
+        "sector": "Construction & Green Materials",
+        "job_title": "Recycled Aggregate Technician",
+        "description": "Processes construction debris into usable aggregate material.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Construction & Green Materials",
+        "job_title": "Green Insulation Specialist",
+        "description": "Produces and installs insulation from cotton and cellulose waste.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Construction & Green Materials",
+        "job_title": "Green Insulation Specialist",
+        "description": "Produces and installs insulation from cotton and cellulose waste.",
+        "suggested_pay": "\u00a345k\u2013\u00a365k",
+        "level": "Managerial",
+        "education_path": "Industry experience"
+      },
+      {
+        "sector": "Construction & Green Materials",
+        "job_title": "Recycled Aggregate Technician",
+        "description": "Processes construction debris into usable aggregate material.",
+        "suggested_pay": "\u00a345k\u2013\u00a365k",
+        "level": "Managerial",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Construction & Green Materials",
+        "job_title": "Recycled Aggregate Technician",
+        "description": "Processes construction debris into usable aggregate material.",
+        "suggested_pay": "\u00a345k\u2013\u00a365k",
+        "level": "Managerial",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Construction & Green Materials",
+        "job_title": "Green Insulation Specialist",
+        "description": "Produces and installs insulation from cotton and cellulose waste.",
+        "suggested_pay": "\u00a330k\u2013\u00a345k",
+        "level": "Mid level",
+        "education_path": "Online course"
+      },
+      {
+        "sector": "Construction & Green Materials",
+        "job_title": "Green Insulation Specialist",
+        "description": "Produces and installs insulation from cotton and cellulose waste.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Online course"
+      },
+      {
+        "sector": "Construction & Green Materials",
+        "job_title": "Recycled Aggregate Technician",
+        "description": "Processes construction debris into usable aggregate material.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Self-taught"
+      },
+      {
+        "sector": "Construction & Green Materials",
+        "job_title": "Green Insulation Specialist",
+        "description": "Produces and installs insulation from cotton and cellulose waste.",
+        "suggested_pay": "\u00a365k\u2013\u00a390k+",
+        "level": "Expert",
+        "education_path": "Industry experience"
+      },
+      {
+        "sector": "Construction & Green Materials",
+        "job_title": "Green Insulation Specialist",
+        "description": "Produces and installs insulation from cotton and cellulose waste.",
+        "suggested_pay": "\u00a345k\u2013\u00a365k",
+        "level": "Managerial",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Construction & Green Materials",
+        "job_title": "Recycled Aggregate Technician",
+        "description": "Processes construction debris into usable aggregate material.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Online course"
+      },
+      {
+        "sector": "Construction & Green Materials",
+        "job_title": "Recycled Aggregate Technician",
+        "description": "Processes construction debris into usable aggregate material.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Construction & Green Materials",
+        "job_title": "Green Insulation Specialist",
+        "description": "Produces and installs insulation from cotton and cellulose waste.",
+        "suggested_pay": "\u00a345k\u2013\u00a365k",
+        "level": "Managerial",
+        "education_path": "Bachelor's degree"
+      },
+      {
+        "sector": "Construction & Green Materials",
+        "job_title": "Recycled Aggregate Technician",
+        "description": "Processes construction debris into usable aggregate material.",
+        "suggested_pay": "\u00a330k\u2013\u00a345k",
+        "level": "Mid level",
+        "education_path": "Online course"
+      },
+      {
+        "sector": "Construction & Green Materials",
+        "job_title": "Recycled Aggregate Technician",
+        "description": "Processes construction debris into usable aggregate material.",
+        "suggested_pay": "\u00a345k\u2013\u00a365k",
+        "level": "Managerial",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Construction & Green Materials",
+        "job_title": "Green Insulation Specialist",
+        "description": "Produces and installs insulation from cotton and cellulose waste.",
+        "suggested_pay": "\u00a365k\u2013\u00a390k+",
+        "level": "Expert",
+        "education_path": "PhD"
+      },
+      {
+        "sector": "Construction & Green Materials",
+        "job_title": "Green Insulation Specialist",
+        "description": "Produces and installs insulation from cotton and cellulose waste.",
+        "suggested_pay": "\u00a345k\u2013\u00a365k",
+        "level": "Managerial",
+        "education_path": "Bachelor's degree"
+      },
+      {
+        "sector": "Construction & Green Materials",
+        "job_title": "Green Insulation Specialist",
+        "description": "Produces and installs insulation from cotton and cellulose waste.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Online course"
+      },
+      {
+        "sector": "Construction & Green Materials",
+        "job_title": "Recycled Aggregate Technician",
+        "description": "Processes construction debris into usable aggregate material.",
+        "suggested_pay": "\u00a330k\u2013\u00a345k",
+        "level": "Mid level",
+        "education_path": "Online course"
+      },
+      {
+        "sector": "Construction & Green Materials",
+        "job_title": "Green Insulation Specialist",
+        "description": "Produces and installs insulation from cotton and cellulose waste.",
+        "suggested_pay": "\u00a330k\u2013\u00a345k",
+        "level": "Mid level",
+        "education_path": "Vocational diploma"
+      },
+      {
+        "sector": "Energy & Fuel from Waste",
+        "job_title": "Algae Biofuel Technician",
+        "description": "Cultivates algae using wastewater for conversion into biofuel.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Energy & Fuel from Waste",
+        "job_title": "Algae Biofuel Technician",
+        "description": "Cultivates algae using wastewater for conversion into biofuel.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Energy & Fuel from Waste",
+        "job_title": "Waste Pyrolysis Operator",
+        "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Online course"
+      },
+      {
+        "sector": "Energy & Fuel from Waste",
+        "job_title": "Algae Biofuel Technician",
+        "description": "Cultivates algae using wastewater for conversion into biofuel.",
+        "suggested_pay": "\u00a365k\u2013\u00a390k+",
+        "level": "Expert",
+        "education_path": "Master\u2019s degree"
+      },
+      {
+        "sector": "Energy & Fuel from Waste",
+        "job_title": "Algae Biofuel Technician",
+        "description": "Cultivates algae using wastewater for conversion into biofuel.",
+        "suggested_pay": "\u00a365k\u2013\u00a390k+",
+        "level": "Expert",
+        "education_path": "Industry experience"
+      },
+      {
+        "sector": "Energy & Fuel from Waste",
+        "job_title": "Algae Biofuel Technician",
+        "description": "Cultivates algae using wastewater for conversion into biofuel.",
+        "suggested_pay": "\u00a330k\u2013\u00a345k",
+        "level": "Mid level",
+        "education_path": "Vocational diploma"
+      },
+      {
+        "sector": "Energy & Fuel from Waste",
+        "job_title": "Waste Pyrolysis Operator",
+        "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+        "suggested_pay": "\u00a365k\u2013\u00a390k+",
+        "level": "Expert",
+        "education_path": "PhD"
+      },
+      {
+        "sector": "Energy & Fuel from Waste",
+        "job_title": "Algae Biofuel Technician",
+        "description": "Cultivates algae using wastewater for conversion into biofuel.",
+        "suggested_pay": "\u00a345k\u2013\u00a365k",
+        "level": "Managerial",
+        "education_path": "Bachelor's degree"
+      },
+      {
+        "sector": "Energy & Fuel from Waste",
+        "job_title": "Waste Pyrolysis Operator",
+        "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+        "suggested_pay": "\u00a330k\u2013\u00a345k",
+        "level": "Mid level",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Energy & Fuel from Waste",
+        "job_title": "Waste Pyrolysis Operator",
+        "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Online course"
+      },
+      {
+        "sector": "Energy & Fuel from Waste",
+        "job_title": "Algae Biofuel Technician",
+        "description": "Cultivates algae using wastewater for conversion into biofuel.",
+        "suggested_pay": "\u00a365k\u2013\u00a390k+",
+        "level": "Expert",
+        "education_path": "PhD"
+      },
+      {
+        "sector": "Energy & Fuel from Waste",
+        "job_title": "Algae Biofuel Technician",
+        "description": "Cultivates algae using wastewater for conversion into biofuel.",
+        "suggested_pay": "\u00a330k\u2013\u00a345k",
+        "level": "Mid level",
+        "education_path": "Online course"
+      },
+      {
+        "sector": "Energy & Fuel from Waste",
+        "job_title": "Waste Pyrolysis Operator",
+        "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+        "suggested_pay": "\u00a345k\u2013\u00a365k",
+        "level": "Managerial",
+        "education_path": "Bachelor's degree"
+      },
+      {
+        "sector": "Energy & Fuel from Waste",
+        "job_title": "Algae Biofuel Technician",
+        "description": "Cultivates algae using wastewater for conversion into biofuel.",
+        "suggested_pay": "\u00a330k\u2013\u00a345k",
+        "level": "Mid level",
+        "education_path": "Online course"
+      },
+      {
+        "sector": "Energy & Fuel from Waste",
+        "job_title": "Waste Pyrolysis Operator",
+        "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+        "suggested_pay": "\u00a365k\u2013\u00a390k+",
+        "level": "Expert",
+        "education_path": "Master\u2019s degree"
+      },
+      {
+        "sector": "Energy & Fuel from Waste",
+        "job_title": "Waste Pyrolysis Operator",
+        "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+        "suggested_pay": "\u00a345k\u2013\u00a365k",
+        "level": "Managerial",
+        "education_path": "Bachelor's degree"
+      },
+      {
+        "sector": "Energy & Fuel from Waste",
+        "job_title": "Waste Pyrolysis Operator",
+        "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+        "suggested_pay": "\u00a330k\u2013\u00a345k",
+        "level": "Mid level",
+        "education_path": "Vocational diploma"
+      },
+      {
+        "sector": "Energy & Fuel from Waste",
+        "job_title": "Waste Pyrolysis Operator",
+        "description": "Runs equipment converting plastic or rubber waste into usable fuel.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Energy & Fuel from Waste",
+        "job_title": "Algae Biofuel Technician",
+        "description": "Cultivates algae using wastewater for conversion into biofuel.",
+        "suggested_pay": "\u00a365k\u2013\u00a390k+",
+        "level": "Expert",
+        "education_path": "Master\u2019s degree"
+      },
+      {
+        "sector": "Energy & Fuel from Waste",
+        "job_title": "Algae Biofuel Technician",
+        "description": "Cultivates algae using wastewater for conversion into biofuel.",
+        "suggested_pay": "\u00a365k\u2013\u00a390k+",
+        "level": "Expert",
+        "education_path": "Industry experience"
+      },
+      {
+        "sector": "Upcycling, Repair & Local Production",
+        "job_title": "Repair Caf\u00e9 Coordinator",
+        "description": "Manages local pop-ups for community-led repairs and upcycling.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Upcycling, Repair & Local Production",
+        "job_title": "3D Print Reclaimer",
+        "description": "Uses recycled plastic filaments for local 3D-printed goods.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Upcycling, Repair & Local Production",
+        "job_title": "Repair Caf\u00e9 Coordinator",
+        "description": "Manages local pop-ups for community-led repairs and upcycling.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Self-taught"
+      },
+      {
+        "sector": "Upcycling, Repair & Local Production",
+        "job_title": "Repair Caf\u00e9 Coordinator",
+        "description": "Manages local pop-ups for community-led repairs and upcycling.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Online course"
+      },
+      {
+        "sector": "Upcycling, Repair & Local Production",
+        "job_title": "3D Print Reclaimer",
+        "description": "Uses recycled plastic filaments for local 3D-printed goods.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Online course"
+      },
+      {
+        "sector": "Upcycling, Repair & Local Production",
+        "job_title": "Repair Caf\u00e9 Coordinator",
+        "description": "Manages local pop-ups for community-led repairs and upcycling.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Upcycling, Repair & Local Production",
+        "job_title": "3D Print Reclaimer",
+        "description": "Uses recycled plastic filaments for local 3D-printed goods.",
+        "suggested_pay": "\u00a330k\u2013\u00a345k",
+        "level": "Mid level",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Upcycling, Repair & Local Production",
+        "job_title": "Repair Caf\u00e9 Coordinator",
+        "description": "Manages local pop-ups for community-led repairs and upcycling.",
+        "suggested_pay": "\u00a330k\u2013\u00a345k",
+        "level": "Mid level",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Upcycling, Repair & Local Production",
+        "job_title": "Repair Caf\u00e9 Coordinator",
+        "description": "Manages local pop-ups for community-led repairs and upcycling.",
+        "suggested_pay": "\u00a345k\u2013\u00a365k",
+        "level": "Managerial",
+        "education_path": "Bachelor's degree"
+      },
+      {
+        "sector": "Upcycling, Repair & Local Production",
+        "job_title": "Repair Caf\u00e9 Coordinator",
+        "description": "Manages local pop-ups for community-led repairs and upcycling.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Upcycling, Repair & Local Production",
+        "job_title": "Repair Caf\u00e9 Coordinator",
+        "description": "Manages local pop-ups for community-led repairs and upcycling.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Project-based proof"
+      },
+      {
+        "sector": "Upcycling, Repair & Local Production",
+        "job_title": "Repair Caf\u00e9 Coordinator",
+        "description": "Manages local pop-ups for community-led repairs and upcycling.",
+        "suggested_pay": "\u00a365k\u2013\u00a390k+",
+        "level": "Expert",
+        "education_path": "PhD"
+      },
+      {
+        "sector": "Upcycling, Repair & Local Production",
+        "job_title": "3D Print Reclaimer",
+        "description": "Uses recycled plastic filaments for local 3D-printed goods.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Online course"
+      },
+      {
+        "sector": "Upcycling, Repair & Local Production",
+        "job_title": "3D Print Reclaimer",
+        "description": "Uses recycled plastic filaments for local 3D-printed goods.",
+        "suggested_pay": "\u00a320k\u2013\u00a330k",
+        "level": "Entry level",
+        "education_path": "Self-taught"
+      },
+      {
+        "sector": "Upcycling, Repair & Local Production",
+        "job_title": "Repair Caf\u00e9 Coordinator",
+        "description": "Manages local pop-ups for community-led repairs and upcycling.",
+        "suggested_pay": "\u00a365k\u2013\u00a390k+",
+        "level": "Expert",
+        "education_path": "Industry experience"
+      },
+      {
+        "sector": "Upcycling, Repair & Local Production",
+        "job_title": "Repair Caf\u00e9 Coordinator",
+        "description": "Manages local pop-ups for community-led repairs and upcycling.",
+        "suggested_pay": "\u00a365k\u2013\u00a390k+",
+        "level": "Expert",
+        "education_path": "PhD"
+      },
+      {
+        "sector": "Upcycling, Repair & Local Production",
+        "job_title": "3D Print Reclaimer",
+        "description": "Uses recycled plastic filaments for local 3D-printed goods.",
+        "suggested_pay": "\u00a365k\u2013\u00a390k+",
+        "level": "Expert",
+        "education_path": "Master\u2019s degree"
+      },
+      {
+        "sector": "Upcycling, Repair & Local Production",
+        "job_title": "3D Print Reclaimer",
+        "description": "Uses recycled plastic filaments for local 3D-printed goods.",
+        "suggested_pay": "\u00a365k\u2013\u00a390k+",
+        "level": "Expert",
+        "education_path": "Master\u2019s degree"
+      },
+      {
+        "sector": "Upcycling, Repair & Local Production",
+        "job_title": "Repair Caf\u00e9 Coordinator",
+        "description": "Manages local pop-ups for community-led repairs and upcycling.",
+        "suggested_pay": "\u00a330k\u2013\u00a345k",
+        "level": "Mid level",
+        "education_path": "Online course"
+      },
+      {
+        "sector": "Upcycling, Repair & Local Production",
+        "job_title": "Repair Caf\u00e9 Coordinator",
+        "description": "Manages local pop-ups for community-led repairs and upcycling.",
+        "suggested_pay": "\u00a365k\u2013\u00a390k+",
+        "level": "Expert",
+        "education_path": "PhD"
+      }
+    ],
+    "sector_analysis": {
+      "Textile & Fashion Circularity": {
+        "job_count": 20,
+        "roles": [
+          "Natural Dye Recovery Technician",
+          "Fabric Deconstruction Specialist",
+          "Fabric Deconstruction Specialist",
+          "Fabric Deconstruction Specialist",
+          "Fabric Deconstruction Specialist",
+          "Fabric Deconstruction Specialist",
+          "Fabric Deconstruction Specialist",
+          "Natural Dye Recovery Technician",
+          "Fabric Deconstruction Specialist",
+          "Natural Dye Recovery Technician",
+          "Fabric Deconstruction Specialist",
+          "Natural Dye Recovery Technician",
+          "Fabric Deconstruction Specialist",
+          "Fabric Deconstruction Specialist",
+          "Fabric Deconstruction Specialist",
+          "Natural Dye Recovery Technician",
+          "Fabric Deconstruction Specialist",
+          "Fabric Deconstruction Specialist",
+          "Natural Dye Recovery Technician",
+          "Fabric Deconstruction Specialist"
+        ],
+        "avg_salary_range": {
+          "min": 37.0,
+          "max": 53.75
+        },
+        "education_paths": [
+          "Industry experience",
+          "Online course",
+          "Bachelor's degree",
+          "Vocational diploma",
+          "Project-based proof",
+          "Self-taught",
+          "PhD"
+        ],
+        "related_value_chains": [
+          {
+            "id": "vc-001",
+            "title": "Cotton Waste to Bioethanol",
+            "category": "Textile Waste"
+          },
+          {
+            "id": "vc-002",
+            "title": "Cotton Waste to Glucose Syrup",
+            "category": "Textile Waste"
+          },
+          {
+            "id": "vc-003",
+            "title": "Polycotton Waste to PEF Monomers",
+            "category": "Textile Waste"
+          }
+        ]
+      },
+      "Bio-Based Materials & Waste Conversion": {
+        "job_count": 20,
+        "roles": [
+          "Bio-Ethanol Production Operator",
+          "Organic Waste Analyzer",
+          "Organic Waste Analyzer",
+          "Organic Waste Analyzer",
+          "Bio-Ethanol Production Operator",
+          "Bio-Ethanol Production Operator",
+          "Bio-Ethanol Production Operator",
+          "Organic Waste Analyzer",
+          "Organic Waste Analyzer",
+          "Bio-Ethanol Production Operator",
+          "Organic Waste Analyzer",
+          "Bio-Ethanol Production Operator",
+          "Bio-Ethanol Production Operator",
+          "Organic Waste Analyzer",
+          "Organic Waste Analyzer",
+          "Organic Waste Analyzer",
+          "Organic Waste Analyzer",
+          "Bio-Ethanol Production Operator",
+          "Bio-Ethanol Production Operator",
+          "Bio-Ethanol Production Operator"
+        ],
+        "avg_salary_range": {
+          "min": 37.0,
+          "max": 53.25
+        },
+        "education_paths": [
+          "Industry experience",
+          "Online course",
+          "Master\u2019s degree",
+          "Vocational diploma",
+          "Bachelor's degree",
+          "Project-based proof",
+          "Self-taught",
+          "PhD"
+        ],
+        "related_value_chains": [
+          {
+            "id": "vc-006",
+            "title": "Orange Peels to Limonene",
+            "category": "Food Waste"
+          },
+          {
+            "id": "vc-007",
+            "title": "Rice Husks to Silica",
+            "category": "Agricultural Waste"
+          },
+          {
+            "id": "vc-009",
+            "title": "Sawdust to Furfural",
+            "category": "Biomass Waste"
+          }
+        ]
+      },
+      "Construction & Green Materials": {
+        "job_count": 20,
+        "roles": [
+          "Recycled Aggregate Technician",
+          "Green Insulation Specialist",
+          "Green Insulation Specialist",
+          "Recycled Aggregate Technician",
+          "Recycled Aggregate Technician",
+          "Green Insulation Specialist",
+          "Green Insulation Specialist",
+          "Recycled Aggregate Technician",
+          "Green Insulation Specialist",
+          "Green Insulation Specialist",
+          "Recycled Aggregate Technician",
+          "Recycled Aggregate Technician",
+          "Green Insulation Specialist",
+          "Recycled Aggregate Technician",
+          "Recycled Aggregate Technician",
+          "Green Insulation Specialist",
+          "Green Insulation Specialist",
+          "Green Insulation Specialist",
+          "Recycled Aggregate Technician",
+          "Green Insulation Specialist"
+        ],
+        "avg_salary_range": {
+          "min": 35.25,
+          "max": 51.25
+        },
+        "education_paths": [
+          "Industry experience",
+          "Online course",
+          "Bachelor's degree",
+          "Vocational diploma",
+          "Project-based proof",
+          "Self-taught",
+          "PhD"
+        ],
+        "related_value_chains": [
+          {
+            "id": "vc-008",
+            "title": "Concrete Waste to Aggregates",
+            "category": "Construction Waste"
+          }
+        ]
+      },
+      "Energy & Fuel from Waste": {
+        "job_count": 20,
+        "roles": [
+          "Algae Biofuel Technician",
+          "Algae Biofuel Technician",
+          "Waste Pyrolysis Operator",
+          "Algae Biofuel Technician",
+          "Algae Biofuel Technician",
+          "Algae Biofuel Technician",
+          "Waste Pyrolysis Operator",
+          "Algae Biofuel Technician",
+          "Waste Pyrolysis Operator",
+          "Waste Pyrolysis Operator",
+          "Algae Biofuel Technician",
+          "Algae Biofuel Technician",
+          "Waste Pyrolysis Operator",
+          "Algae Biofuel Technician",
+          "Waste Pyrolysis Operator",
+          "Waste Pyrolysis Operator",
+          "Waste Pyrolysis Operator",
+          "Waste Pyrolysis Operator",
+          "Algae Biofuel Technician",
+          "Algae Biofuel Technician"
+        ],
+        "avg_salary_range": {
+          "min": 42.0,
+          "max": 60.0
+        },
+        "education_paths": [
+          "Industry experience",
+          "Online course",
+          "Master\u2019s degree",
+          "Vocational diploma",
+          "Bachelor's degree",
+          "Project-based proof",
+          "PhD"
+        ],
+        "related_value_chains": [
+          {
+            "id": "vc-004",
+            "title": "Mixed Plastic Waste to Fuel Oil",
+            "category": "Plastic Waste"
+          },
+          {
+            "id": "vc-009",
+            "title": "Sawdust to Furfural",
+            "category": "Biomass Waste"
+          }
+        ]
+      },
+      "Upcycling, Repair & Local Production": {
+        "job_count": 20,
+        "roles": [
+          "Repair Caf\u00e9 Coordinator",
+          "3D Print Reclaimer",
+          "Repair Caf\u00e9 Coordinator",
+          "Repair Caf\u00e9 Coordinator",
+          "3D Print Reclaimer",
+          "Repair Caf\u00e9 Coordinator",
+          "3D Print Reclaimer",
+          "Repair Caf\u00e9 Coordinator",
+          "Repair Caf\u00e9 Coordinator",
+          "Repair Caf\u00e9 Coordinator",
+          "Repair Caf\u00e9 Coordinator",
+          "Repair Caf\u00e9 Coordinator",
+          "3D Print Reclaimer",
+          "3D Print Reclaimer",
+          "Repair Caf\u00e9 Coordinator",
+          "Repair Caf\u00e9 Coordinator",
+          "3D Print Reclaimer",
+          "3D Print Reclaimer",
+          "Repair Caf\u00e9 Coordinator",
+          "Repair Caf\u00e9 Coordinator"
+        ],
+        "avg_salary_range": {
+          "min": 36.25,
+          "max": 52.0
+        },
+        "education_paths": [
+          "Industry experience",
+          "Online course",
+          "Master\u2019s degree",
+          "Bachelor's degree",
+          "Project-based proof",
+          "Self-taught",
+          "PhD"
+        ],
+        "related_value_chains": [
+          {
+            "id": "vc-005",
+            "title": "Printed Circuit Boards to Precious Metals",
+            "category": "E-Waste"
+          },
+          {
+            "id": "vc-010",
+            "title": "Waste Glass to Foam Glass",
+            "category": "Glass Waste"
+          }
+        ]
+      }
+    }
+  },
+  "nodes": {
+    "active_nodes": [
+      {
+        "id": "node-001",
+        "name": "London ReLoop Hub",
+        "location": {
+          "lat": 51.5074,
+          "lng": -0.1278
+        },
+        "active_chains": [
+          "vc-001",
+          "vc-002",
+          "vc-004"
+        ],
+        "contact": "london@reloop.org",
+        "capacity": "Large"
+      },
+      {
+        "id": "node-002",
+        "name": "Manchester ReLoop Centre",
+        "location": {
+          "lat": 53.4808,
+          "lng": -2.2426
+        },
+        "active_chains": [
+          "vc-003",
+          "vc-005"
+        ],
+        "contact": "manchester@reloop.org",
+        "capacity": "Medium"
+      },
+      {
+        "id": "node-003",
+        "name": "Birmingham Circular Hub",
+        "location": {
+          "lat": 52.4862,
+          "lng": -1.8904
+        },
+        "active_chains": [
+          "vc-006",
+          "vc-007",
+          "vc-008"
+        ],
+        "contact": "birmingham@reloop.org",
+        "capacity": "Medium"
+      },
+      {
+        "id": "node-004",
+        "name": "Glasgow ReLoop Node",
+        "location": {
+          "lat": 55.8642,
+          "lng": -4.2518
+        },
+        "active_chains": [
+          "vc-009",
+          "vc-010"
+        ],
+        "contact": "glasgow@reloop.org",
+        "capacity": "Small"
+      }
+    ],
+    "trade_routes": [
+      {
+        "from": "node-001",
+        "to": "node-002",
+        "materials": [
+          "Processed Cotton",
+          "Bioethanol"
+        ],
+        "volume": "Medium",
+        "frequency": "Weekly"
+      },
+      {
+        "from": "node-002",
+        "to": "node-003",
+        "materials": [
+          "Recovered Metals",
+          "Plastic Fuel Oil"
+        ],
+        "volume": "High",
+        "frequency": "Bi-weekly"
+      },
+      {
+        "from": "node-003",
+        "to": "node-004",
+        "materials": [
+          "Foam Glass",
+          "Limonene"
+        ],
+        "volume": "Low",
+        "frequency": "Monthly"
+      }
+    ]
+  },
+  "community": {
+    "mission_statements": [
+      "Transforming waste into economic opportunity through cooperative value chains",
+      "Building self-sufficient circular economy nodes in communities worldwide",
+      "Creating sustainable livelihoods through waste valorization",
+      "Democratizing access to circular economy technologies"
+    ],
+    "partnership_types": [
+      "Local Government Integration",
+      "Academic Research Collaboration",
+      "Industry Supply Chain Inclusion",
+      "Community Cooperative Formation"
+    ],
+    "educational_resources": [
+      {
+        "title": "Circular Economy Fundamentals",
+        "format": "Online Course",
+        "access_level": "Free"
+      },
+      {
+        "title": "Technical Implementation Guides",
+        "format": "PDF Documentation",
+        "access_level": "Free"
+      },
+      {
+        "title": "Advanced Process Engineering",
+        "format": "Interactive Workshop",
+        "access_level": "Premium"
+      }
+    ]
+  },
+  "platform_metrics": {
+    "total_value_chains": 10,
+    "total_job_roles": 100,
+    "active_nodes": 4,
+    "trade_routes": 3,
+    "commission_rate": "5%",
+    "subscription_plans": [
+      {
+        "name": "Community Access",
+        "price": "Free",
+        "features": [
+          "Basic value chain access",
+          "Community forum"
+        ]
+      },
+      {
+        "name": "Node Operator",
+        "price": "\u00a399/month",
+        "features": [
+          "Full value chain library",
+          "Technical support",
+          "Trade network access"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": "\u00a3499/month",
+        "features": [
+          "Custom integration",
+          "Dedicated support",
+          "White-labeling"
+        ]
+      }
+    ]
+  }
+}

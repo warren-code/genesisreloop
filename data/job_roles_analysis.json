@@ -1,0 +1,105 @@
+{
+  "total_job_roles": 100,
+  "unique_sectors": [
+    "Textile & Fashion Circularity",
+    "Bio-Based Materials & Waste Conversion",
+    "Construction & Green Materials",
+    "Energy & Fuel from Waste",
+    "Upcycling, Repair & Local Production"
+  ],
+  "sector_counts": {
+    "Textile & Fashion Circularity": 20,
+    "Bio-Based Materials & Waste Conversion": 20,
+    "Construction & Green Materials": 20,
+    "Energy & Fuel from Waste": 20,
+    "Upcycling, Repair & Local Production": 20
+  },
+  "level_distribution": {
+    "Managerial": 22,
+    "Entry level": 35,
+    "Expert": 22,
+    "Mid level": 21
+  },
+  "sample_jobs": [
+    {
+      "sector": "Textile & Fashion Circularity",
+      "job_title": "Natural Dye Recovery Technician",
+      "description": "Extracts and repurposes natural dyes from discarded textiles.",
+      "suggested_pay": "\u00a345k\u2013\u00a365k",
+      "level": "Managerial",
+      "education_path": "Bachelor's degree"
+    },
+    {
+      "sector": "Textile & Fashion Circularity",
+      "job_title": "Fabric Deconstruction Specialist",
+      "description": "Separates blended fabrics for recycling into new textiles.",
+      "suggested_pay": "\u00a320k\u2013\u00a330k",
+      "level": "Entry level",
+      "education_path": "Self-taught"
+    },
+    {
+      "sector": "Textile & Fashion Circularity",
+      "job_title": "Fabric Deconstruction Specialist",
+      "description": "Separates blended fabrics for recycling into new textiles.",
+      "suggested_pay": "\u00a345k\u2013\u00a365k",
+      "level": "Managerial",
+      "education_path": "Industry experience"
+    },
+    {
+      "sector": "Textile & Fashion Circularity",
+      "job_title": "Fabric Deconstruction Specialist",
+      "description": "Separates blended fabrics for recycling into new textiles.",
+      "suggested_pay": "\u00a345k\u2013\u00a365k",
+      "level": "Managerial",
+      "education_path": "Industry experience"
+    },
+    {
+      "sector": "Textile & Fashion Circularity",
+      "job_title": "Fabric Deconstruction Specialist",
+      "description": "Separates blended fabrics for recycling into new textiles.",
+      "suggested_pay": "\u00a320k\u2013\u00a330k",
+      "level": "Entry level",
+      "education_path": "Project-based proof"
+    },
+    {
+      "sector": "Textile & Fashion Circularity",
+      "job_title": "Fabric Deconstruction Specialist",
+      "description": "Separates blended fabrics for recycling into new textiles.",
+      "suggested_pay": "\u00a345k\u2013\u00a365k",
+      "level": "Managerial",
+      "education_path": "Industry experience"
+    },
+    {
+      "sector": "Textile & Fashion Circularity",
+      "job_title": "Fabric Deconstruction Specialist",
+      "description": "Separates blended fabrics for recycling into new textiles.",
+      "suggested_pay": "\u00a365k\u2013\u00a390k+",
+      "level": "Expert",
+      "education_path": "PhD"
+    },
+    {
+      "sector": "Textile & Fashion Circularity",
+      "job_title": "Natural Dye Recovery Technician",
+      "description": "Extracts and repurposes natural dyes from discarded textiles.",
+      "suggested_pay": "\u00a330k\u2013\u00a345k",
+      "level": "Mid level",
+      "education_path": "Project-based proof"
+    },
+    {
+      "sector": "Textile & Fashion Circularity",
+      "job_title": "Fabric Deconstruction Specialist",
+      "description": "Separates blended fabrics for recycling into new textiles.",
+      "suggested_pay": "\u00a330k\u2013\u00a345k",
+      "level": "Mid level",
+      "education_path": "Online course"
+    },
+    {
+      "sector": "Textile & Fashion Circularity",
+      "job_title": "Natural Dye Recovery Technician",
+      "description": "Extracts and repurposes natural dyes from discarded textiles.",
+      "suggested_pay": "\u00a345k\u2013\u00a365k",
+      "level": "Managerial",
+      "education_path": "Project-based proof"
+    }
+  ]
+}
