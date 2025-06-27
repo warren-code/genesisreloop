@@ -1,4 +1,0 @@
-{
-  "buildCommand": "cd pnpm install && pnpm run build",
-  "outputDirectory": "shadcn-ui/dist"
-}
