@@ -1,2 +1,6 @@
 packages:
-  - 'shadcn-ui'
+  - shadcn-ui
+
+onlyBuiltDependencies:
+  - '@swc/core'
+  - esbuild
